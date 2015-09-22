@@ -1,0 +1,189 @@
+@scale: 200;
+
+@font-face {
+  font-family: HuaShu;
+  src: url('/s/huashu/less/fonts/a.ttf?12');
+  font-weight: normal;
+  font-style: normal
+}
+@font-face {
+  font-family: HuaShu1;
+  src: url('/s/huashu/less/fonts/b.ttf?12');
+  font-weight: normal;
+  font-style: normal
+}
+@font-face {
+  font-family: HuaShu2;
+  src: url('/s/huashu/less/fonts/c.ttf?12');
+  font-weight: normal;
+  font-style: normal
+}
+body.huashu{
+  overflow: hidden;
+  margin: 0;
+  font-size: 0.14rem;
+  background-color: #000;
+  position: relative;
+  height: 100%;
+  min-height: 480rem/@scale;
+  -webkit-text-size-adjust:none;
+
+  .wrap {
+    height: 100%;
+    overflow: hidden;
+  }
+
+  .sec {
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: all 0.3s linear;
+    -webkit-transform: translateY(0px);
+    transition: all 0.3s linear;
+    transform: translateY(0px);
+    -webkit-backface-visibility: hidden;
+  }
+
+  .land {
+    background: url(/s/huashu/images/star-bg_03.jpg) no-repeat;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    display: none;
+    color: white;
+  }
+  .land p {
+    font-size: 30px;
+    width: 100%;
+    position: absolute;
+  }
+}
+
+.attf{
+  font-family: HuaShu;
+}
+.bttf{
+  font-family: HuaShu1;
+}
+.cttf{
+  font-family: HuaShu2;
+}
+
+.huashu .page{
+  position: relative !important;
+  display: none;
+}
+.huashu .page1{
+  background: url(/s/huashu/images/bg_02.jpg) no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.huashu .page1 header{
+  color: white;
+  text-align: center;
+  font-size: 48rem/@scale;
+  padding-top: 30rem/@scale;
+}
+.huashu .page1 .t1{
+  background: url(/s/huashu/images/p1/p1_1_03.png);
+  background-size: cover;
+  width: 510rem/@scale;
+  height: 152rem/@scale;
+  border-radius: 100%;
+  position: absolute;
+  left: 50%;
+  top: 500rem/@scale;
+  margin-left: -255rem/@scale;
+}
+.huashu .page1 .btn{
+  width: 130rem/@scale;
+  height: 130rem/@scale;
+  border-radius: 100%;
+  position: absolute;
+}
+.huashu .page1 .btn span{
+  font-size: 24rem/@scale;
+  color: white;
+  text-align: center;
+  padding-top: 140rem/@scale;
+  display: block;
+  margin-top: 10rem/@scale;
+  font-family: HuaShu;
+}
+.huashu .page1 .btn1{
+  background: url(/s/huashu/images/p1/p1_06.png);
+  background-size: cover;
+  left: 90rem/@scale;
+  top: 700rem/@scale;
+}
+.huashu .page1 .btn2{
+  background: url(/s/huashu/images/p1/p1_03.png);
+  background-size: cover;
+  right: 100rem/@scale;
+  top: 700rem/@scale;
+
+  box-shadow:0 0 28rem/@scale rgba(215,180,12,.5);
+  -webkit-box-shadow:0 0 28rem/@scale rgba(251,208,0,3);
+}
+.huashu .preload{
+  background: white;
+  width: 100%;
+  height: 100%;
+  position: fixed !important;
+  z-index: 10000;
+}
+.huashu .preload .loading{
+  background: url(/s/huashu/images/loading_02.png);
+  background-size: cover;
+  width: 544rem/@scale;
+  height: 95rem/@scale;
+
+  left: 0;
+  top: 451rem/@scale;
+}
+.huashu .preload .process{
+  width: 411rem/@scale;
+  height: 48rem/@scale;
+  right: 0;
+  bottom: 0;
+}
+.huashu .preload .process .num{
+  width: 0;
+  height: 100%;
+  background: #4d405c;
+  border-radius: 6rem/@scale;
+}
+
+.shine_border{
+  animation: shineBorder 0.6s linear infinite alternate;
+  -webkit-animation: shineBorder 0.6s linear infinite alternate;
+}
+
+@keyframes shineBorder {
+  0% {
+    box-shadow:0 0 28rem/@scale rgba(215,180,12,.5);
+    -webkit-box-shadow:0 0 28rem/@scale rgba(251,208,0,3);
+  }
+  100% {
+    box-shadow:0 0 8rem/@scale rgba(215,180,12,.5);
+    -webkit-box-shadow:0 0 8rem/@scale rgba(251,208,0,3);
+  }
+}
+@-webkit-keyframes shineBorder {
+  0% {
+    box-shadow:0 0 28rem/@scale rgba(215,180,12,.5);
+    -webkit-box-shadow:0 0 28rem/@scale rgba(251,208,0,3);
+  }
+  100% {
+    box-shadow:0 0 8rem/@scale rgba(215,180,12,.5);
+    -webkit-box-shadow:0 0 8rem/@scale rgba(251,208,0,3);
+  }
+}

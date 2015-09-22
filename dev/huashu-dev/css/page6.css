@@ -1,0 +1,78 @@
+.huashu .page6 .content {
+  background: url(../images/p6/p6_02.png) no-repeat;
+  background-size: cover;
+  width: 3.2rem;
+  height: 3.96rem;
+  top: 1.635rem;
+  right: 0;
+  left: 0;
+  margin: auto;
+}
+.huashu .page6 .content .btn1 {
+  width: 2rem;
+  height: 0.4rem;
+  left: 0.685rem;
+  top: 2.64rem;
+}
+.huashu .page6 .content input:focus {
+  outline: none;
+}
+.huashu .page6 .content input {
+  width: 1.55rem;
+  height: 0.45rem;
+  border: 0;
+  left: 1.11rem;
+  top: 1.285rem;
+  background: transparent;
+  font-size: 0.16rem;
+  line-height: 0.45rem;
+  color: white;
+  font-family: HuaShu2;
+}
+.huashu .page6 .mushroom {
+  top: 4.75rem;
+  right: 0.5rem;
+}
+.huashu .page6 .content .sanjiao {
+  background: url(../images/p6/p6b_03.png) no-repeat;
+  background-size: cover;
+  width: 0.155rem;
+  height: 0.105rem;
+  top: 2.995rem;
+  right: 0.375rem;
+}
+.huashu .sanjiao {
+  -webkit-animation-name: sanjiao;
+  -webkit-animation-duration: 333ms;
+  -webkit-animation-iteration-count: infinite;
+  /*无限循环*/
+  -webkit-animation-timing-function: step-start;
+}
+@keyframes sanjiao {
+  0% {
+    transform: translateY(0rem);
+    -webkit-transform: translateY(0rem);
+  }
+  33% {
+    transform: translateY(-0.11rem);
+    -webkit-transform: translateY(-0.11rem);
+  }
+  67% {
+    transform: translateY(-0.22rem);
+    -webkit-transform: translateY(-0.22rem);
+  }
+}
+@-webkit-keyframes sanjiao {
+  0% {
+    transform: translateY(0rem);
+    -webkit-transform: translateY(0rem);
+  }
+  33% {
+    transform: translateY(-0.11rem);
+    -webkit-transform: translateY(-0.11rem);
+  }
+  67% {
+    transform: translateY(-0.22rem);
+    -webkit-transform: translateY(-0.22rem);
+  }
+}

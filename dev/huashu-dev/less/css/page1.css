@@ -1,0 +1,160 @@
+body.huashu {
+  overflow: hidden;
+  margin: 0;
+  font-size: 0.14rem;
+  background-color: #000;
+  position: relative;
+  height: 100%;
+  min-height: 2.088rem;
+  -webkit-text-size-adjust: none;
+}
+body.huashu .wrap {
+  height: 100%;
+  overflow: hidden;
+}
+body.huashu .sec {
+  z-index: 1;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: all 0.3s linear;
+  -webkit-transform: translateY(0px);
+  transition: all 0.3s linear;
+  transform: translateY(0px);
+  -webkit-backface-visibility: hidden;
+}
+body.huashu .land {
+  background: url(../images/star-bg_03.jpg) no-repeat;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  display: none;
+  color: white;
+}
+body.huashu .land p {
+  font-size: 30px;
+  width: 100%;
+  position: absolute;
+}
+.attf {
+  font-family: HuaShu;
+}
+.bttf {
+  font-family: HuaShu1;
+}
+.cttf {
+  font-family: HuaShu2;
+}
+.huashu .page {
+  position: relative !important;
+  display: none;
+}
+.huashu .page1 {
+  background: url(../images/bg_02.jpg) no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.huashu .page1 header {
+  color: white;
+  text-align: center;
+  font-size: 0.2088rem;
+  padding-top: 0.1305rem;
+}
+.huashu .page1 .t1 {
+  background: url(../images/p1/p1_1_03.png);
+  background-size: cover;
+  width: 2.2185rem;
+  height: 0.6612rem;
+  border-radius: 100%;
+  position: absolute;
+  left: 50%;
+  top: 2.175rem;
+  margin-left: -1.10925rem;
+}
+.huashu .page1 .btn {
+  width: 0.5655rem;
+  height: 0.5655rem;
+  border-radius: 100%;
+  position: absolute;
+}
+.huashu .page1 .btn span {
+  font-size: 0.1044rem;
+  color: white;
+  text-align: center;
+  padding-top: 0.609rem;
+  display: block;
+  margin-top: 0.0435rem;
+  font-family: HuaShu;
+}
+.huashu .page1 .btn1 {
+  background: url(../images/p1/p1_06.png);
+  background-size: cover;
+  left: 0.3915rem;
+  top: 3.045rem;
+}
+.huashu .page1 .btn2 {
+  background: url(../images/p1/p1_03.png);
+  background-size: cover;
+  right: 0.435rem;
+  top: 3.045rem;
+  box-shadow: 0 0 0.1218rem rgba(215, 180, 12, 0.5);
+  -webkit-box-shadow: 0 0 0.1218rem #fbd000;
+}
+.huashu .preload {
+  background: white;
+  width: 100%;
+  height: 100%;
+  position: fixed !important;
+  z-index: 10000;
+}
+.huashu .preload .loading {
+  background: url(../images/loading_02.png);
+  background-size: cover;
+  width: 2.3664rem;
+  height: 0.41325rem;
+  left: 0;
+  top: 1.96185rem;
+}
+.huashu .preload .process {
+  width: 1.78785rem;
+  height: 0.2088rem;
+  right: 0;
+  bottom: 0;
+}
+.huashu .preload .process .num {
+  width: 0;
+  height: 100%;
+  background: #4d405c;
+  border-radius: 0.0261rem;
+}
+.shine_border {
+  animation: shineBorder 0.6s linear infinite alternate;
+  -webkit-animation: shineBorder 0.6s linear infinite alternate;
+}
+@keyframes shineBorder {
+  0% {
+    box-shadow: 0 0 0.1218rem rgba(215, 180, 12, 0.5);
+    -webkit-box-shadow: 0 0 0.1218rem #fbd000;
+  }
+  100% {
+    box-shadow: 0 0 0.0348rem rgba(215, 180, 12, 0.5);
+    -webkit-box-shadow: 0 0 0.0348rem #fbd000;
+  }
+}
+@-webkit-keyframes shineBorder {
+  0% {
+    box-shadow: 0 0 0.1218rem rgba(215, 180, 12, 0.5);
+    -webkit-box-shadow: 0 0 0.1218rem #fbd000;
+  }
+  100% {
+    box-shadow: 0 0 0.0348rem rgba(215, 180, 12, 0.5);
+    -webkit-box-shadow: 0 0 0.0348rem #fbd000;
+  }
+}

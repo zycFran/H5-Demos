@@ -1,0 +1,184 @@
+.huashu .preload,
+.huashu .page4,
+.huashu .page6,
+.huashu .page7,
+.huashu .page10,
+.huashu .page11,
+.huashu .page5 {
+  background: url(../images/bg2_01.jpg) repeat-y;
+  background-size: 100% 0.02175rem;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.huashu .preload .logo,
+.huashu .page4 .logo,
+.huashu .page6 .logo,
+.huashu .page7 .logo,
+.huashu .page10 .logo,
+.huashu .page5 .logo {
+  background: url(../images/p4/p4_03.png) no-repeat;
+  background-size: cover;
+  width: 0.5394rem;
+  height: 0.29145rem;
+  top: 0.0957rem;
+  left: 0.09135rem;
+  z-index: 9999;
+}
+.huashu .page4 .header,
+.huashu .page6 .header,
+.huashu .page5 .header {
+  background: url(../images/p4/p4b_03.png) no-repeat;
+  background-size: cover;
+  width: 2.3838rem;
+  height: 0.52635rem;
+  top: 0.54375rem;
+  right: 0;
+}
+.huashu .page4 .header .point,
+.huashu .page6 .header .point,
+.huashu .page5 .header .point {
+  border-radius: 100%;
+  width: 0.0348rem;
+  height: 0.0348rem;
+  background-color: #fbd000;
+  animation: run 2s linear infinite;
+  -webkit-animation: run 2s linear infinite;
+}
+.huashu .page4 .header .txt {
+  color: white;
+  text-align: center;
+  font-size: 0.23055rem;
+  line-height: 0.52635rem;
+  letter-spacing: 0.06525rem;
+  padding-right: 0.33495rem;
+  font-family: HuaShu2;
+}
+.huashu .page4 .content {
+  background: url(../images/p4/p4_02.png) no-repeat;
+  background-size: cover;
+  width: 2.784rem;
+  height: 3.7236rem;
+  top: 1.15275rem;
+  right: 0;
+  left: 0;
+  margin: auto;
+}
+.huashu .page4 .content .btn1 {
+  width: 1.7139rem;
+  height: 0.3828rem;
+  top: 2.17935rem;
+  left: 0.53505rem;
+}
+.huashu .page4 .content .btn2 {
+  width: 1.71825rem;
+  height: 0.3654rem;
+  top: 2.59695rem;
+  left: 0.53505rem;
+}
+.huashu .circle {
+  background: url(../images/p4/p4_04.png) no-repeat;
+  background-size: cover;
+  width: 0.3132rem;
+  height: 0.3132rem;
+}
+.huashu .page4 .content .circle {
+  top: 3.0798rem;
+  left: 0.9222rem;
+}
+.huashu .page4 .content .item {
+  width: 2.10975rem;
+  height: 0.174rem;
+  left: 0.348rem;
+}
+.huashu .page4 .content .item_a {
+  top: 0.70905rem;
+}
+.huashu .page4 .content .item_b {
+  top: 0.957rem;
+}
+.huashu .page4 .content .item_c {
+  top: 1.23975rem;
+}
+.huashu .page4 .content .item_d {
+  top: 1.479rem;
+}
+.huashu .page4 .content .check {
+  background: url(../images/p4/check_03.png) no-repeat;
+  background-size: cover;
+  width: 0.1479rem;
+  height: 0.1131rem;
+  top: 0.03rem;
+  left: 0.02rem;
+  display: none;
+}
+.circle_run {
+  transform-origin: center center;
+  -webkit-transform-origin: center center;
+  animation: circleRun 1s linear infinite;
+  -webkit-animation: circleRun 1s linear infinite;
+}
+@keyframes run {
+  0% {
+    transform: translateX(0.03045rem) translateY(0.0348rem);
+    -webkit-transform: translateX(0.03045rem) translateY(0.0348rem);
+  }
+  41% {
+    transform: translateX(2.001rem) translateY(0.0348rem);
+    -webkit-transform: translateX(2.001rem) translateY(0.0348rem);
+  }
+  50% {
+    transform: translateX(2.001rem) translateY(0.4524rem);
+    -webkit-transform: translateX(2.001rem) translateY(0.4524rem);
+  }
+  91% {
+    transform: translateX(0.03045rem) translateY(0.4524rem);
+    -webkit-transform: translateX(0.03045rem) translateY(0.4524rem);
+  }
+  100% {
+    transform: translateX(0.03045rem) translateY(0.0348rem);
+    -webkit-transform: translateX(0.03045rem) translateY(0.0348rem);
+  }
+}
+@-webkit-keyframes run {
+  0% {
+    transform: translate(0rem 0rem);
+    -webkit-transform: translate(0rem 0rem);
+  }
+  25% {
+    transform: translate(1.10925rem 0rem);
+    -webkit-transform: translate(1.10925rem 0rem);
+  }
+  50% {
+    transform: translate(1.10925rem 0.23925rem);
+    -webkit-transform: translate(1.10925rem 0.23925rem);
+  }
+  75% {
+    transform: translate(0 0.23925rem);
+    -webkit-transform: translate(0 0.23925rem);
+  }
+  100% {
+    transform: translate(0rem 0rem);
+    -webkit-transform: translate(0rem 0rem);
+  }
+}
+@keyframes circleRun {
+  0% {
+    transform: rotateZ(0deg) rotateX(0deg);
+    -webkit-transform: rotateZ(0deg) rotateX(0deg);
+  }
+  100% {
+    transform: rotateZ(360deg) rotateX(0deg);
+    -webkit-transform: rotateZ(360deg) rotateX(0deg);
+  }
+}
+@-webkit-keyframes circleRun {
+  0% {
+    transform: rotateZ(0deg) rotateX(0deg);
+    -webkit-transform: rotateZ(0deg) rotateX(0deg);
+  }
+  100% {
+    transform: rotateZ(360deg) rotateX(0deg);
+    -webkit-transform: rotateZ(360deg) rotateX(0deg);
+  }
+}

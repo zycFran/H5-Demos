@@ -1,0 +1,389 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  font-family: "microsoft yahei";
+}
+@font-face {
+  font-family: Phoenix;
+  src: url('/s/phoenix/less/fonts/G0v1_cu.ttf?1');
+  font-weight: normal;
+  font-style: normal;
+}
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+.swiper-container .swiper-slide {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.page1 {
+  background: url(/s/phoenix/images/P1.jpg) no-repeat;
+  background-size: cover;
+}
+.page1 .title,
+.page5 .title {
+  font-family: Phoenix;
+  color: white;
+  font-size: 0.275rem;
+  margin-top: 1.525rem;
+  text-align: center;
+}
+.page5 .title {
+  position: absolute;
+  margin-top: 0;
+  top: 0.375rem;
+  left: 50%;
+  margin-left: -0.415rem;
+}
+.page5 .t1,
+.page1 .t1 {
+  background: url(/s/phoenix/images/p1_03.png) no-repeat center center;
+  width: 2.23rem;
+  height: 0.465rem;
+  background-size: cover;
+  margin: 0.2rem auto 0;
+}
+.page5 .t1 {
+  position: absolute;
+  margin-top: 0;
+  top: 0.8rem;
+  left: 50%;
+  margin-left: -1.115rem;
+}
+.page1 .t2 {
+  background: url(/s/phoenix/images/p1_07.png) no-repeat center center;
+  width: 0.195rem;
+  height: 0.17rem;
+  background-size: cover;
+  margin: 0.035rem auto 0;
+}
+.page1 .t3 {
+  background: url(/s/phoenix/images/p1_04.png) no-repeat center center;
+  width: 2.66rem;
+  height: 0.315rem;
+  background-size: cover;
+  margin: 0.035rem auto 0;
+}
+.page2 {
+  background: url(/s/phoenix/images/P2.jpg) no-repeat;
+  background-size: cover;
+  font-family: Phoenix;
+  color: white;
+  text-align: center;
+}
+.page2 .t1 {
+  font-size: 0.15rem;
+  margin: 0.525rem auto 0;
+  background-color: rgba(252, 129, 204, 0.87);
+  line-height: 0.2rem;
+  width: 1.6rem;
+}
+.page2 .t2 {
+  line-height: 0.2rem;
+  font-size: 0.15rem;
+  margin: 0.1rem auto 0;
+  background-color: rgba(252, 129, 204, 0.69);
+  width: 1.82rem;
+}
+.page2 .t3 {
+  width: 1.265rem;
+  line-height: 0.2rem;
+  font-size: 0.15rem;
+  margin: 0.085rem auto 0;
+  background-color: rgba(252, 129, 204, 0.41);
+}
+.page2 .t4 {
+  font-size: 0.265rem;
+  margin-top: 0.215rem;
+  letter-spacing: 0.05rem;
+}
+.page2 .t5 {
+  background: url(/s/phoenix/images/p2_03.png) no-repeat;
+  width: 2.68rem;
+  height: 0.885rem;
+  background-size: cover;
+  margin: 0.09rem auto 0;
+}
+.page3 {
+  background: url(/s/phoenix/images/p3.jpg) no-repeat;
+  background-size: cover;
+  font-family: Phoenix;
+  color: white;
+  text-align: center;
+}
+.page3 .t1 {
+  font-size: 0.15rem;
+  margin: 0.525rem auto 0;
+  background-color: rgba(252, 129, 204, 0.87);
+  line-height: 0.2rem;
+  width: 0.38rem;
+}
+.page3 .t2 {
+  line-height: 0.2rem;
+  font-size: 0.15rem;
+  margin: 0.09rem auto 0;
+  background-color: rgba(252, 129, 204, 0.69);
+  width: 1.76rem;
+}
+.page3 .t3 {
+  width: 0.525rem;
+  line-height: 0.2rem;
+  font-size: 0.15rem;
+  margin: 0.09rem auto 0;
+  background-color: rgba(252, 129, 204, 0.41);
+}
+.page3 .t4 {
+  font-size: 0.265rem;
+  margin-top: 0.215rem;
+  letter-spacing: 0.05rem;
+}
+.page3 .t5 {
+  background: url(/s/phoenix/images/P3_11.png) no-repeat;
+  width: 3.025rem;
+  height: 0.78rem;
+  background-size: cover;
+  margin: 0.09rem auto 0;
+}
+.page4 {
+  background: url(/s/phoenix/images/p4.jpg) no-repeat;
+  background-size: cover;
+  font-family: Phoenix;
+  color: white;
+  text-align: center;
+  font-size: 0.15rem;
+}
+.page4 .t1 {
+  width: 2.525rem;
+  height: 0.94rem;
+  background-size: cover;
+  margin: 0.25rem auto 0;
+}
+.page4 .t11 {
+  text-align: center;
+  font-size: 0.325rem;
+  letter-spacing: 0.065rem;
+  font-family: Phoenix;
+  color: white;
+  line-height: 0.6rem;
+}
+.page4 .t12 {
+  text-align: center;
+  font-size: 0.17rem;
+  font-family: Phoenix;
+  color: white;
+}
+.page4 .d1 {
+  margin: 0.425rem auto 0;
+  width: 2.49rem;
+  border: 0.02rem dashed white;
+  padding: 0.125rem 0 0 0;
+}
+.page4 .d1 > p {
+  margin: 0 auto 0.075rem auto;
+  line-height: 0.2rem;
+}
+.page4 .tt1 {
+  width: 1.885rem;
+  background-color: rgba(252, 129, 204, 0.87);
+}
+.page4 .tt2 {
+  width: 2.375rem;
+  background-color: rgba(252, 129, 204, 0.71);
+}
+.page4 .tt3 {
+  width: 1.725rem;
+  background-color: rgba(252, 129, 204, 0.55);
+}
+.page4 .tt31 {
+  width: 1.75rem;
+  background-color: rgba(252, 129, 204, 0.55);
+}
+.page4 .tt4 {
+  width: 1.45rem;
+  background-color: rgba(252, 129, 204, 0.45);
+}
+.page4 .tt5 {
+  width: 1.55rem;
+  background-color: rgba(252, 129, 204, 0.32);
+}
+.page4 .tt6 {
+  width: 1.55rem;
+  background-color: rgba(252, 129, 204, 0.2);
+}
+.page4 .tt7 {
+  width: 1.55rem;
+  background-color: rgba(252, 129, 204, 0.14);
+}
+.page4 .t5 {
+  background: url(/s/phoenix/images/p4_08.png) no-repeat;
+  width: 2.525rem;
+  height: 0.68rem;
+  background-size: cover;
+  margin: 0.225rem auto 0;
+}
+.page5 {
+  background: url(/s/phoenix/images/p5.jpg) no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.page5 .p1 {
+  margin-top: 1.625rem;
+  margin-left: 0.44rem;
+  font-size: 0.34rem;
+  color: white;
+  letter-spacing: 0.07rem;
+  position: absolute;
+  font-family: Phoenix;
+}
+.page5 .p2 {
+  margin-top: 2rem;
+  margin-left: 0.84rem;
+  font-size: 0.34rem;
+  color: white;
+  letter-spacing: 0.07rem;
+  font-family: Phoenix;
+}
+.page5 .p3 {
+  margin: 0.35rem auto 0;
+  font-size: 0.2rem;
+  color: white;
+  font-family: Phoenix;
+  text-align: center;
+}
+.page5 .p4 {
+  margin: 0.135rem auto 0;
+  font-size: 0.2rem;
+  color: white;
+  font-family: Phoenix;
+  text-align: center;
+}
+.page5 .p4 input {
+  width: 1.75rem;
+  height: 0.275rem;
+  line-height: 0.275rem;
+  border: 0.02rem dashed white;
+  outline: 0;
+  color: white;
+  font-family: Phoenix;
+  font-size: 0.2rem;
+  text-align: center;
+  background: rgba(57, 57, 57, 0.77);
+}
+.page5 .btn {
+  width: 0.9rem;
+  height: 0.3rem;
+  margin: 0.25rem auto 0;
+  color: white;
+  line-height: 0.3rem;
+  font-size: 0.2rem;
+  font-family: Phoenix;
+  text-align: center;
+  border-radius: 0.04rem;
+  background-color: #fc81cc;
+}
+.page6 {
+  background: url(/s/phoenix/images/p6.jpg) no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.page6 .btn {
+  position: absolute;
+  text-align: center;
+  font-family: Phoenix;
+  color: white;
+  width: 1.125rem;
+  height: 0.385rem;
+  line-height: 0.385rem;
+  font-size: 0.205rem;
+  top: 1.33rem;
+  left: 50%;
+  margin-left: -0.565rem;
+  border-radius: 0.04rem;
+  background-color: rgba(252, 129, 204, 0.42);
+}
+.page6 .mask {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.85);
+  display: none;
+}
+.page6 .mask p {
+  font-family: Phoenix;
+  color: white;
+  font-size: 0.355rem;
+  margin-top: 2.05rem;
+  text-align: center;
+}
+.page6 .jiantou {
+  position: absolute;
+  background: url(/s/phoenix/images/p7_03.png) no-repeat;
+  background-size: cover;
+  width: 0.35rem;
+  height: 0.395rem;
+  top: 0.35rem;
+  right: 0.34rem;
+}
+#arrow {
+  position: absolute;
+  z-index: 999;
+  -webkit-animation: start 1.5s infinite ease-in-out;
+  background: url(/s/phoenix/images/arrow_03.png) no-repeat;
+  width: 0.315rem;
+  height: 0.18rem;
+  background-size: cover;
+  bottom: 0.2rem;
+  left: 50%;
+  margin-left: -0.245rem;
+}
+@-webkit-keyframes start {
+  0%,
+  30% {
+    opacity: 0;
+    -webkit-transform: translate(0, -8px);
+  }
+  60% {
+    opacity: 1;
+    -webkit-transform: translate(0, 0);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate(0, 10px);
+  }
+}
+@-moz-keyframes start {
+  0%,
+  30% {
+    opacity: 0;
+    -moz-transform: translate(0, 10px);
+  }
+  60% {
+    opacity: 1;
+    -moz-transform: translate(0, 0);
+  }
+  100% {
+    opacity: 0;
+    -moz-transform: translate(0, -8px);
+  }
+}
+@keyframes start {
+  0%,
+  30% {
+    opacity: 0;
+    transform: translate(0, -8px);
+  }
+  60% {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(0, 10px);
+  }
+}

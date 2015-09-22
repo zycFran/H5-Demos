@@ -1,0 +1,437 @@
+.huashu .page7 .content {
+  background: url(../images/p7/p7.png) no-repeat;
+  background-size: cover;
+  width: 3.2rem;
+  height: 5.68rem;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+}
+.huashu .page7 .mushroom {
+  top: 0.74rem;
+  left: 0.18rem;
+  transform-origin: center center;
+  -webkit-transform-origin: center center;
+  transform: rotateZ(180deg) rotateX(0deg);
+  -webkit-transform: rotateZ(180deg) rotateX(0deg);
+}
+.huashu .page7 .mushroom {
+  animation: mushroom2 1s linear infinite alternate;
+  -webkit-animation: mushroom2 1s linear infinite alternate;
+}
+.huashu .page7 .circle {
+  top: 4.89rem;
+  right: 0.64rem;
+}
+.huashu .page7 .circle2 {
+  width: 0.63rem;
+  height: 0.63rem;
+  top: 0.6rem;
+  left: 1.23rem;
+}
+.huashu .page7 .futiao {
+  background: url(../images/p7/p8_03.png) no-repeat;
+  background-size: cover;
+  width: 0.315rem;
+  height: 0.2rem;
+  top: 1.01rem;
+  left: 2.37rem;
+  animation: futiao 1s linear infinite alternate;
+  -webkit-animation: futiao 1s linear infinite alternate;
+}
+.huashu .page7 .futiao {
+  background: url(../images/p7/p8_03.png) no-repeat;
+  background-size: cover;
+  width: 0.315rem;
+  height: 0.2rem;
+  top: 1.01rem;
+  left: 2.37rem;
+  animation: futiao 1s linear infinite alternate;
+  -webkit-animation: futiao 1s linear infinite alternate;
+}
+.huashu .page7 .sanjiao2 {
+  -webkit-animation-name: sanjiao2;
+  -webkit-animation-duration: 333ms;
+  -webkit-animation-iteration-count: infinite;
+  /*无限循环*/
+  -webkit-animation-timing-function: step-start;
+  background: url(../images/p6/p6b_03.png) no-repeat;
+  background-size: cover;
+  width: 0.155rem;
+  height: 0.105rem;
+  top: 1.025rem;
+  left: 0.445rem;
+  transform: translateY(0rem) rotateZ(180deg) rotateX(0deg);
+  -webkit-transform: translateY(0rem) rotateZ(180deg) rotateX(0deg);
+}
+.huashu .page7 .num {
+  width: 1.68rem;
+  height: 0.41rem;
+  left: 0.765rem;
+  color: white;
+  text-align: center;
+  font-size: 0.265rem;
+  font-family: HuaShu2;
+  line-height: 0.41rem;
+}
+.huashu .page7 .num1 {
+  top: 2.245rem;
+}
+.huashu .page7 .num2 {
+  top: 3.335rem;
+}
+.huashu .page7 .btn1 {
+  width: 1.965rem;
+  height: 0.42rem;
+  top: 4.3rem;
+  left: 0.7rem;
+}
+.huashu .page7 .axe {
+  background: url(../images/p7/p8_06.png) no-repeat;
+  background-size: cover;
+  width: 0.56rem;
+  height: 0.665rem;
+  top: 4.145rem;
+  right: 0.505rem;
+}
+.huashu .page7 .sitiao {
+  background: url(../images/p7/p8_11.png) no-repeat;
+  background-size: cover;
+  width: 2.59rem;
+  height: 0.265rem;
+  top: 2.74rem;
+  left: 0.3rem;
+  transform-origin: center center;
+  -webkit-transform-origin: center center;
+  transform: rotateZ(-55deg) rotateX(0deg);
+  -webkit-transform: rotateZ(-55deg) rotateX(0deg);
+  display: none;
+}
+.huashu .page7 .dialog {
+  position: absolute;
+  background: rgba(77, 64, 92, 0.64);
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  display: none;
+}
+.huashu .page7 .p8 {
+  background: url(../images/p7/p8b_03.png) no-repeat;
+  background-size: cover;
+  width: 2.74rem;
+  height: 3.805rem;
+  top: 1.01rem;
+  left: 0.275rem;
+  display: none;
+}
+.huashu .page7 .close {
+  background: url(../images/close_03.png) no-repeat;
+  background-size: cover;
+  width: 0.32rem;
+  height: 0.32rem;
+  top: -0.16rem;
+  right: -0.16rem;
+}
+.huashu .page7 .p8 .btn2 {
+  width: 1.17rem;
+  height: 0.33rem;
+  bottom: 0.3rem;
+  left: 0.775rem;
+}
+.huashu .page7 .p9 .btn3 {
+  width: 1.845rem;
+  height: 0.72rem;
+  bottom: 0.25rem;
+  left: 0.415rem;
+}
+.huashu .page7 .dialog .tt {
+  color: #4d405c;
+  text-align: center;
+  font-size: 0.15rem;
+  font-family: HuaShu;
+  position: absolute;
+  line-height: 0.15rem;
+}
+.huashu .page7 .dialog .tt2 {
+  color: white;
+  text-align: center;
+  font-size: 0.24rem;
+  font-family: HuaShu2;
+  width: 1.66rem;
+  height: 0.36rem;
+  line-height: 0.36rem;
+  position: absolute;
+}
+.huashu .page7 .dialog #t1 {
+  width: 1.015rem;
+  height: 0.19rem;
+  line-height: 0.19rem;
+  left: 0.825rem;
+  top: 0.2rem;
+  font-size: 0.175rem;
+}
+.huashu .page7 .dialog #t5 {
+  width: 0.875rem;
+  left: 0.9rem;
+  top: 0.21rem;
+}
+.huashu .page7 .dialog #t2 {
+  width: 0.675rem;
+  height: 0.19rem;
+  line-height: 0.19rem;
+  top: 0.66rem;
+  left: 0.8rem;
+}
+.huashu .page7 .dialog #t3 {
+  top: 1.31rem;
+  left: 0.525rem;
+}
+.huashu .page7 .dialog #t4 {
+  top: 2.17rem;
+  left: 0.525rem;
+}
+.huashu .page7 .p9 {
+  background: url(../images/p7/p9_03.png) no-repeat;
+  background-size: cover;
+  width: 2.74rem;
+  height: 2.655rem;
+  top: 1.65rem;
+  left: 0.275rem;
+  display: none;
+}
+.huashu .page7 .p9 .btn2 {
+  width: 1.7rem;
+  height: 0.575rem;
+  bottom: 0.34rem;
+  left: 0.51rem;
+}
+.huashu .page11 .content {
+  background: url(../images/p11/p11_01.png) no-repeat;
+  background-size: cover;
+  width: 3.2rem;
+  height: 5.68rem;
+  top: 0;
+  left: 0;
+}
+.huashu .page11 .content .futiao {
+  background: url(../images/p7/p8_03.png) no-repeat;
+  background-size: cover;
+  width: 0.315rem;
+  height: 0.2rem;
+  top: 0.8rem;
+  left: 0.22rem;
+  transform-origin: center center;
+  -webkit-transform-origin: center center;
+  transform: rotateZ(90deg) rotateX(0deg);
+  -webkit-transform: rotateZ(90deg) rotateX(0deg);
+  animation: futiao2 1s linear infinite alternate;
+  -webkit-animation: futiao2 1s linear infinite alternate;
+}
+.huashu .page11 .content .lunzi {
+  background: url(../images/p11/p11b_03.png) no-repeat;
+  background-size: cover;
+  width: 0.23rem;
+  height: 0.23rem;
+  top: 0.62rem;
+  left: 1.54rem;
+}
+.huashu .page11 .btn {
+  width: 2.765rem;
+  height: 0.575rem;
+  top: 3.59rem;
+  left: 0.36rem;
+}
+.huashu .page11 .mask_bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: none;
+}
+.huashu .page11 .share_icon {
+  background: url(../images/share_03.png) no-repeat;
+  background-size: cover;
+  width: 0.29rem;
+  height: 0.345rem;
+  top: 0.1rem;
+  right: 0.11rem;
+}
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+@-webkit-keyframes flash {
+  from,
+  50%,
+  to {
+    opacity: 1;
+  }
+  25%,
+  75% {
+    opacity: 0;
+  }
+}
+@keyframes flash {
+  from,
+  50%,
+  to {
+    opacity: 1;
+  }
+  25%,
+  75% {
+    opacity: 0;
+  }
+}
+.flash {
+  -webkit-animation-name: flash;
+  animation-name: flash;
+}
+@keyframes sanjiao2 {
+  0% {
+    transform: translateY(0rem) rotateZ(180deg) rotateX(0deg);
+    -webkit-transform: translateY(0rem) rotateZ(180deg) rotateX(0deg);
+  }
+  33% {
+    transform: translateY(0.13rem) rotateZ(180deg) rotateX(0deg);
+    -webkit-transform: translateY(0.13rem) rotateZ(180deg) rotateX(0deg);
+  }
+  67% {
+    transform: translateY(0.26rem) rotateZ(180deg) rotateX(0deg);
+    -webkit-transform: translateY(0.26rem) rotateZ(180deg) rotateX(0deg);
+  }
+}
+@-webkit-keyframes sanjiao2 {
+  0% {
+    transform: translateY(0rem) rotateZ(180deg) rotateX(0deg);
+    -webkit-transform: translateY(0rem) rotateZ(180deg) rotateX(0deg);
+  }
+  33% {
+    transform: translateY(0.13rem) rotateZ(180deg) rotateX(0deg);
+    -webkit-transform: translateY(0.13rem) rotateZ(180deg) rotateX(0deg);
+  }
+  67% {
+    transform: translateY(0.26rem) rotateZ(180deg) rotateX(0deg);
+    -webkit-transform: translateY(0.26rem) rotateZ(180deg) rotateX(0deg);
+  }
+}
+@-webkit-keyframes mushroom2 {
+  0% {
+    transform: translateY(-0.05rem) rotateZ(180deg) rotateX(0deg);
+    -webkit-transform: translateY(-0.05rem) rotateZ(180deg) rotateX(0deg);
+  }
+  100% {
+    transform: translateY(0) rotateZ(180deg) rotateX(0deg);
+    -webkit-transform: translateY(0) rotateZ(180deg) rotateX(0deg);
+  }
+}
+@keyframes mushroom2 {
+  0% {
+    transform: translateY(-0.05rem) rotateZ(180deg) rotateX(0deg);
+    -webkit-transform: translateY(-0.05rem) rotateZ(180deg) rotateX(0deg);
+  }
+  100% {
+    transform: translateY(0) rotateZ(180deg) rotateX(0deg);
+    -webkit-transform: translateY(0) rotateZ(180deg) rotateX(0deg);
+  }
+}
+@-webkit-keyframes futiao {
+  0% {
+    transform: translateX(-0.07rem);
+    -webkit-transform: translateX(-0.07rem);
+  }
+  100% {
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
+  }
+}
+@keyframes futiao {
+  0% {
+    transform: translateX(-0.07rem);
+    -webkit-transform: translateX(-0.07rem);
+  }
+  100% {
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
+  }
+}
+@-webkit-keyframes futiao2 {
+  0% {
+    transform: translateY(0.07rem) rotateZ(90deg) rotateX(0deg);
+    -webkit-transform: translateY(0.07rem) rotateZ(90deg) rotateX(0deg);
+  }
+  100% {
+    transform: translateY(0) rotateZ(90deg) rotateX(0deg);
+    -webkit-transform: translateY(0) rotateZ(90deg) rotateX(0deg);
+  }
+}
+@keyframes futiao2 {
+  0% {
+    transform: translateY(0.07rem) rotateZ(90deg) rotateX(0deg);
+    -webkit-transform: translateY(0.07rem) rotateZ(90deg) rotateX(0deg);
+  }
+  100% {
+    transform: translateY(0) rotateZ(90deg) rotateX(0deg);
+    -webkit-transform: translateY(0) rotateZ(90deg) rotateX(0deg);
+  }
+}
+.kan {
+  animation: kan 0.7s linear;
+  -webkit-animation: kan 0.7s linear;
+}
+.fadeIn {
+  -webkit-animation: fadeIn 0.5s linear;
+  animation: fadeIn 0.5s linear;
+  -moz-animation: fadeIn 0.5s linear;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes kan {
+  0% {
+    transform: translateX(0) translateY(0);
+    -webkit-transform: translateX(0) translateY(0);
+  }
+  29% {
+    transform: translateX(0) translateY(-2.38rem);
+    -webkit-transform: translateX(0) translateY(-2.38rem);
+  }
+  100% {
+    transform: translateX(-1.26rem) translateY(-0.405rem);
+    -webkit-transform: translateX(-1.26rem) translateY(-0.405rem);
+  }
+}
+@-webkit-keyframes kan {
+  0% {
+    transform: translateX(0) translateY(0);
+    -webkit-transform: translateX(0) translateY(0);
+  }
+  29% {
+    transform: translateX(0) translateY(-2.38rem);
+    -webkit-transform: translateX(0) translateY(-2.38rem);
+  }
+  100% {
+    transform: translateX(-1.26rem) translateY(-0.405rem);
+    -webkit-transform: translateX(-1.26rem) translateY(-0.405rem);
+  }
+}

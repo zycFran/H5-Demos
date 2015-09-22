@@ -1,0 +1,1178 @@
+@media (device-height: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+  body.huashu {
+    overflow: hidden;
+    margin: 0;
+    font-size: 0.14rem;
+    background-color: #000;
+    position: relative;
+    height: 100%;
+    min-height: 2.088rem;
+    -webkit-text-size-adjust: none;
+  }
+  body.huashu .wrap {
+    height: 100%;
+    overflow: hidden;
+  }
+  body.huashu .sec {
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: all 0.3s linear;
+    -webkit-transform: translateY(0px);
+    transition: all 0.3s linear;
+    transform: translateY(0px);
+    -webkit-backface-visibility: hidden;
+  }
+  body.huashu .land {
+    background: url(../images/star-bg_03.jpg) no-repeat;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    display: none;
+    color: white;
+  }
+  body.huashu .land p {
+    font-size: 30px;
+    width: 100%;
+    position: absolute;
+  }
+  .attf {
+    font-family: HuaShu;
+  }
+  .bttf {
+    font-family: HuaShu1;
+  }
+  .cttf {
+    font-family: HuaShu2;
+  }
+  .huashu .page {
+    position: relative !important;
+    display: none;
+  }
+  .huashu .page1 {
+    background: url(../images/bg_02.jpg) no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  }
+  .huashu .page1 header {
+    color: white;
+    text-align: center;
+    font-size: 0.2088rem;
+    padding-top: 0.1305rem;
+  }
+  .huashu .page1 .t1 {
+    background: url(../images/p1/p1_1_03.png);
+    background-size: cover;
+    width: 2.2185rem;
+    height: 0.6612rem;
+    border-radius: 100%;
+    position: absolute;
+    left: 50%;
+    top: 2.175rem;
+    margin-left: -1.10925rem;
+  }
+  .huashu .page1 .btn {
+    width: 0.5655rem;
+    height: 0.5655rem;
+    border-radius: 100%;
+    position: absolute;
+  }
+  .huashu .page1 .btn span {
+    font-size: 0.1044rem;
+    color: white;
+    text-align: center;
+    padding-top: 0.609rem;
+    display: block;
+    margin-top: 0.0435rem;
+    font-family: HuaShu;
+  }
+  .huashu .page1 .btn1 {
+    background: url(../images/p1/p1_06.png);
+    background-size: cover;
+    left: 0.3915rem;
+    top: 3.045rem;
+  }
+  .huashu .page1 .btn2 {
+    background: url(../images/p1/p1_03.png);
+    background-size: cover;
+    right: 0.435rem;
+    top: 3.045rem;
+    box-shadow: 0 0 0.1218rem rgba(215, 180, 12, 0.5);
+    -webkit-box-shadow: 0 0 0.1218rem #fbd000;
+  }
+  .huashu .preload {
+    background: white;
+    width: 100%;
+    height: 100%;
+    position: fixed !important;
+    z-index: 10000;
+  }
+  .huashu .preload .loading {
+    background: url(../images/loading_02.png);
+    background-size: cover;
+    width: 2.3664rem;
+    height: 0.41325rem;
+    left: 0;
+    top: 1.96185rem;
+  }
+  .huashu .preload .process {
+    width: 1.78785rem;
+    height: 0.2088rem;
+    right: 0;
+    bottom: 0;
+  }
+  .huashu .preload .process .num {
+    width: 0;
+    height: 100%;
+    background: #4d405c;
+    border-radius: 0.0261rem;
+  }
+  .shine_border {
+    animation: shineBorder 0.6s linear infinite alternate;
+    -webkit-animation: shineBorder 0.6s linear infinite alternate;
+  }
+  @keyframes shineBorder {
+    0% {
+      box-shadow: 0 0 0.1218rem rgba(215, 180, 12, 0.5);
+      -webkit-box-shadow: 0 0 0.1218rem #fbd000;
+    }
+    100% {
+      box-shadow: 0 0 0.0348rem rgba(215, 180, 12, 0.5);
+      -webkit-box-shadow: 0 0 0.0348rem #fbd000;
+    }
+  }
+  @-webkit-keyframes shineBorder {
+    0% {
+      box-shadow: 0 0 0.1218rem rgba(215, 180, 12, 0.5);
+      -webkit-box-shadow: 0 0 0.1218rem #fbd000;
+    }
+    100% {
+      box-shadow: 0 0 0.0348rem rgba(215, 180, 12, 0.5);
+      -webkit-box-shadow: 0 0 0.0348rem #fbd000;
+    }
+  }
+  .huashu .page3,
+  .huashu .page2 {
+    background: url(../images/bg_02.jpg) no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  }
+  .huashu .page2 header,
+  .huashu .page3 header {
+    color: white;
+    text-align: center;
+    font-size: 0.2088rem;
+    padding-top: 0.1305rem;
+  }
+  .huashu .page2 .time,
+  .huashu .page3 .time {
+    color: white;
+    text-align: center;
+    font-size: 0.11745rem;
+    margin-top: 0.087rem;
+    font-family: HuaShu;
+  }
+  .huashu .page2 .middle {
+    background: url(../images/p1/p3_03.png);
+    background-size: cover;
+    width: 2.2185rem;
+    height: 1.7226rem;
+    position: absolute;
+    left: 50%;
+    margin-left: -1.10925rem;
+    top: 1.0092rem;
+  }
+  .huashu .page2 .middle .btnx {
+    width: 0.5829rem;
+    height: 0.5829rem;
+    position: absolute;
+    left: 50%;
+    margin-left: -0.315rem;
+    top: 0.03rem;
+    border-radius: 100%;
+  }
+  .huashu .page2 .number {
+    width: 1.94445rem;
+    height: 2.3925rem;
+    position: absolute;
+    margin-left: -0.9744rem;
+    margin-top: 0.1305rem;
+    left: 50%;
+    display: none;
+  }
+  .huashu .page2 .btn {
+    width: 0.5655rem;
+    height: 0.5655rem;
+    border-radius: 100%;
+    position: absolute;
+    top: 3.393rem;
+    left: 50%;
+    margin-left: -0.32625rem;
+    background: url(../images/p1/p1_06.png);
+    background-size: cover;
+  }
+  .huashu .page2 .number .row {
+    display: -webkit-box;
+    -webkit-box-pack: justify;
+    /* iOS */
+    display: -webkit-flex;
+    -webkit-justify-content: space-between;
+    /* w3c */
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.10005rem;
+  }
+  .huashu .page2 .number .row4 {
+    margin-bottom: 0;
+  }
+  .huashu .page2 .number .row > div {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    color: white;
+    font-size: 0.2175rem;
+    text-align: center;
+    width: 0.4698rem;
+    height: 0.435rem;
+    border-radius: 100%;
+    border: 0.0261rem solid #aaa17d;
+    padding-top: 0.0348rem;
+    font-family: HuaShu;
+  }
+  .huashu .page2 .number .row4 > div {
+    height: 0.3828rem;
+    padding-top: 0.087rem;
+  }
+  .huashu .page2 .number .row4 .xing {
+    font-size: 0.4785rem;
+    height: 0.4698rem;
+    padding-top: 0;
+  }
+  .huashu .page2 .number .row .one {
+    border-color: #fbd000;
+    color: #fbd000;
+  }
+  .huashu .page2 .number .row p {
+    color: #e9e9e7;
+    font-size: 0.0609rem;
+    -webkit-transform: scale(0.75);
+    margin-top: -0.0435rem;
+  }
+  .huashu .page2 .txt {
+    font-size: 0.11745rem;
+    color: #a9a9a0;
+    position: absolute;
+    right: 0.54375rem;
+    top: 3.58875rem;
+    font-family: HuaShu;
+  }
+  .huashu .preload,
+  .huashu .page4,
+  .huashu .page6,
+  .huashu .page7,
+  .huashu .page10,
+  .huashu .page11,
+  .huashu .page5 {
+    background: url(../images/bg2_01.jpg) repeat-y;
+    background-size: 100% 0.02175rem;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  }
+  .huashu .preload .logo,
+  .huashu .page4 .logo,
+  .huashu .page6 .logo,
+  .huashu .page7 .logo,
+  .huashu .page10 .logo,
+  .huashu .page5 .logo {
+    background: url(../images/p4/p4_03.png) no-repeat;
+    background-size: cover;
+    width: 0.5394rem;
+    height: 0.29145rem;
+    top: 0.0957rem;
+    left: 0.09135rem;
+    z-index: 9999;
+  }
+  .huashu .page4 .header,
+  .huashu .page6 .header,
+  .huashu .page5 .header {
+    background: url(../images/p4/p4b_03.png) no-repeat;
+    background-size: cover;
+    width: 2.3838rem;
+    height: 0.52635rem;
+    top: 0.54375rem;
+    right: 0;
+  }
+  .huashu .page4 .header .point,
+  .huashu .page6 .header .point,
+  .huashu .page5 .header .point {
+    border-radius: 100%;
+    width: 0.0348rem;
+    height: 0.0348rem;
+    background-color: #fbd000;
+    animation: run 2s linear infinite;
+    -webkit-animation: run 2s linear infinite;
+  }
+  .huashu .page4 .header .txt {
+    color: white;
+    text-align: center;
+    font-size: 0.23055rem;
+    line-height: 0.52635rem;
+    letter-spacing: 0.06525rem;
+    padding-right: 0.33495rem;
+    font-family: HuaShu2;
+  }
+  .huashu .page4 .content {
+    background: url(../images/p4/p4_02.png) no-repeat;
+    background-size: cover;
+    width: 2.784rem;
+    height: 3.7236rem;
+    top: 1.15275rem;
+    right: 0;
+    left: 0;
+    margin: auto;
+  }
+  .huashu .page4 .content .btn1 {
+    width: 1.7139rem;
+    height: 0.3828rem;
+    top: 2.17935rem;
+    left: 0.53505rem;
+  }
+  .huashu .page4 .content .btn2 {
+    width: 1.71825rem;
+    height: 0.3654rem;
+    top: 2.59695rem;
+    left: 0.53505rem;
+  }
+  .huashu .circle {
+    background: url(../images/p4/p4_04.png) no-repeat;
+    background-size: cover;
+    width: 0.3132rem;
+    height: 0.3132rem;
+  }
+  .huashu .page4 .content .circle {
+    top: 3.0798rem;
+    left: 0.9222rem;
+  }
+  .huashu .page4 .content .item {
+    width: 2.10975rem;
+    height: 0.174rem;
+    left: 0.348rem;
+  }
+  .huashu .page4 .content .item_a {
+    top: 0.70905rem;
+  }
+  .huashu .page4 .content .item_b {
+    top: 0.957rem;
+  }
+  .huashu .page4 .content .item_c {
+    top: 1.23975rem;
+  }
+  .huashu .page4 .content .item_d {
+    top: 1.479rem;
+  }
+  .huashu .page4 .content .check {
+    background: url(../images/p4/check_03.png) no-repeat;
+    background-size: cover;
+    width: 0.1479rem;
+    height: 0.1131rem;
+    top: 0.03rem;
+    left: 0.02rem;
+    display: none;
+  }
+  .circle_run {
+    transform-origin: center center;
+    -webkit-transform-origin: center center;
+    animation: circleRun 1s linear infinite;
+    -webkit-animation: circleRun 1s linear infinite;
+  }
+  @keyframes run {
+    0% {
+      transform: translateX(0.03045rem) translateY(0.0348rem);
+      -webkit-transform: translateX(0.03045rem) translateY(0.0348rem);
+    }
+    41% {
+      transform: translateX(2.001rem) translateY(0.0348rem);
+      -webkit-transform: translateX(2.001rem) translateY(0.0348rem);
+    }
+    50% {
+      transform: translateX(2.001rem) translateY(0.4524rem);
+      -webkit-transform: translateX(2.001rem) translateY(0.4524rem);
+    }
+    91% {
+      transform: translateX(0.03045rem) translateY(0.4524rem);
+      -webkit-transform: translateX(0.03045rem) translateY(0.4524rem);
+    }
+    100% {
+      transform: translateX(0.03045rem) translateY(0.0348rem);
+      -webkit-transform: translateX(0.03045rem) translateY(0.0348rem);
+    }
+  }
+  @-webkit-keyframes run {
+    0% {
+      transform: translate(0rem 0rem);
+      -webkit-transform: translate(0rem 0rem);
+    }
+    25% {
+      transform: translate(1.10925rem 0rem);
+      -webkit-transform: translate(1.10925rem 0rem);
+    }
+    50% {
+      transform: translate(1.10925rem 0.23925rem);
+      -webkit-transform: translate(1.10925rem 0.23925rem);
+    }
+    75% {
+      transform: translate(0 0.23925rem);
+      -webkit-transform: translate(0 0.23925rem);
+    }
+    100% {
+      transform: translate(0rem 0rem);
+      -webkit-transform: translate(0rem 0rem);
+    }
+  }
+  @keyframes circleRun {
+    0% {
+      transform: rotateZ(0deg) rotateX(0deg);
+      -webkit-transform: rotateZ(0deg) rotateX(0deg);
+    }
+    100% {
+      transform: rotateZ(360deg) rotateX(0deg);
+      -webkit-transform: rotateZ(360deg) rotateX(0deg);
+    }
+  }
+  @-webkit-keyframes circleRun {
+    0% {
+      transform: rotateZ(0deg) rotateX(0deg);
+      -webkit-transform: rotateZ(0deg) rotateX(0deg);
+    }
+    100% {
+      transform: rotateZ(360deg) rotateX(0deg);
+      -webkit-transform: rotateZ(360deg) rotateX(0deg);
+    }
+  }
+  .huashu .page5 .header,
+  .huashu .page6 .header {
+    top: 0.82215rem;
+  }
+  .huashu .page6 .header .txt,
+  .huashu .page5 .header .txt {
+    background: url(../images/p5/p5_03.png) no-repeat;
+    background-size: cover;
+    width: 1.82265rem;
+    height: 0.8265rem;
+    top: -0.435rem;
+    left: 0.16095rem;
+  }
+  .huashu .page5 .content {
+    background: url(../images/p5/p5b_02.png) no-repeat;
+    background-size: cover;
+    width: 2.784rem;
+    height: 3.5844rem;
+    top: 1.2963rem;
+    right: 0;
+    left: 0;
+    margin: auto;
+  }
+  .huashu .page5 .content .circle {
+    top: 0.93525rem;
+    left: 0.2262rem;
+    width: 0.26535rem;
+    height: 0.26535rem;
+  }
+  .huashu .envelope {
+    background: url(../images/p5/p5_07.png) no-repeat;
+    background-size: cover;
+    width: 0.26535rem;
+    height: 0.1827rem;
+    -webkit-animation: upDown 2s infinite linear alternate;
+    animation: upDown 2s infinite linear alternate;
+  }
+  .huashu .mushroom {
+    background: url(../images/p5/p5_15.png) no-repeat;
+    background-size: cover;
+    width: 0.2088rem;
+    height: 0.17835rem;
+    animation: upDown1 1s linear infinite alternate;
+    -webkit-animation: upDown1 1s linear infinite alternate;
+  }
+  .huashu .page5 .envelope {
+    top: 1.35285rem;
+    left: 0.0348rem;
+  }
+  .huashu .page5 .mushroom {
+    top: 4.2978rem;
+    right: 0.4698rem;
+  }
+  .huashu .page5 .content .btn1 {
+    width: 1.71825rem;
+    height: 0.3654rem;
+    top: 2.523rem;
+    left: 0.609rem;
+  }
+  @-webkit-keyframes upDown {
+    0% {
+      transform: translateY(0.1rem);
+      -webkit-transform: translateY(0.1rem);
+    }
+    50% {
+      transform: translateY(0);
+      -webkit-transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-0.1rem);
+      -webkit-transform: translateY(-0.1rem);
+    }
+  }
+  @keyframes upDown {
+    0% {
+      transform: translateY(0.1rem);
+      -webkit-transform: translateY(0.1rem);
+    }
+    50% {
+      transform: translateY(0);
+      -webkit-transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-0.1rem);
+      -webkit-transform: translateY(-0.1rem);
+    }
+  }
+  @-webkit-keyframes upDown1 {
+    0% {
+      transform: translateY(0.05rem);
+      -webkit-transform: translateY(0.05rem);
+    }
+    100% {
+      transform: translateY(0);
+      -webkit-transform: translateY(0);
+    }
+  }
+  @keyframes upDown1 {
+    0% {
+      transform: translateY(0.05rem);
+      -webkit-transform: translateY(0.05rem);
+    }
+    100% {
+      transform: translateY(0);
+      -webkit-transform: translateY(0);
+    }
+  }
+  .huashu .page6 .content {
+    background: url(../images/p6/p6_02.png) no-repeat;
+    background-size: cover;
+    width: 2.784rem;
+    height: 3.4452rem;
+    top: 1.42245rem;
+    right: 0;
+    left: 0;
+    margin: auto;
+  }
+  .huashu .page6 .content .btn1 {
+    width: 1.74rem;
+    height: 0.348rem;
+    left: 0.59595rem;
+    top: 2.2968rem;
+  }
+  .huashu .page6 .content input:focus {
+    outline: none;
+  }
+  .huashu .page6 .content input {
+    width: 1.3485rem;
+    height: 0.3915rem;
+    border: 0;
+    left: 0.9657rem;
+    top: 1.11795rem;
+    background: transparent;
+    font-size: 0.1392rem;
+    line-height: 0.3915rem;
+    color: white;
+    font-family: HuaShu2;
+  }
+  .huashu .page6 .mushroom {
+    top: 4.1325rem;
+    right: 0.435rem;
+  }
+  .huashu .page6 .content .sanjiao {
+    background: url(../images/p6/p6b_03.png) no-repeat;
+    background-size: cover;
+    width: 0.13485rem;
+    height: 0.09135rem;
+    top: 2.60565rem;
+    right: 0.32625rem;
+  }
+  .huashu .sanjiao {
+    -webkit-animation-name: sanjiao;
+    -webkit-animation-duration: 333ms;
+    -webkit-animation-iteration-count: infinite;
+    /*无限循环*/
+    -webkit-animation-timing-function: step-start;
+  }
+  @keyframes sanjiao {
+    0% {
+      transform: translateY(0rem);
+      -webkit-transform: translateY(0rem);
+    }
+    33% {
+      transform: translateY(-0.11rem);
+      -webkit-transform: translateY(-0.11rem);
+    }
+    67% {
+      transform: translateY(-0.22rem);
+      -webkit-transform: translateY(-0.22rem);
+    }
+  }
+  @-webkit-keyframes sanjiao {
+    0% {
+      transform: translateY(0rem);
+      -webkit-transform: translateY(0rem);
+    }
+    33% {
+      transform: translateY(-0.11rem);
+      -webkit-transform: translateY(-0.11rem);
+    }
+    67% {
+      transform: translateY(-0.22rem);
+      -webkit-transform: translateY(-0.22rem);
+    }
+  }
+  .huashu .page7 .content {
+    background: url(../images/p7/p7.png) no-repeat;
+    background-size: cover;
+    width: 2.784rem;
+    height: 4.9416rem;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+  }
+  .huashu .page7 .mushroom {
+    top: 0.6438rem;
+    left: 0.1566rem;
+    transform-origin: center center;
+    -webkit-transform-origin: center center;
+    transform: rotateZ(180deg) rotateX(0deg);
+    -webkit-transform: rotateZ(180deg) rotateX(0deg);
+  }
+  .huashu .page7 .mushroom {
+    animation: mushroom2 1s linear infinite alternate;
+    -webkit-animation: mushroom2 1s linear infinite alternate;
+  }
+  .huashu .page7 .circle {
+    top: 4.2543rem;
+    right: 0.5568rem;
+  }
+  .huashu .page7 .circle2 {
+    width: 0.5481rem;
+    height: 0.5481rem;
+    top: 0.522rem;
+    left: 1.0701rem;
+  }
+  .huashu .page7 .futiao {
+    background: url(../images/p7/p8_03.png) no-repeat;
+    background-size: cover;
+    width: 0.27405rem;
+    height: 0.174rem;
+    top: 0.8787rem;
+    left: 2.0619rem;
+    animation: futiao 1s linear infinite alternate;
+    -webkit-animation: futiao 1s linear infinite alternate;
+  }
+  .huashu .page7 .futiao {
+    background: url(../images/p7/p8_03.png) no-repeat;
+    background-size: cover;
+    width: 0.27405rem;
+    height: 0.174rem;
+    top: 0.8787rem;
+    left: 2.0619rem;
+    animation: futiao 1s linear infinite alternate;
+    -webkit-animation: futiao 1s linear infinite alternate;
+  }
+  .huashu .page7 .sanjiao2 {
+    -webkit-animation-name: sanjiao2;
+    -webkit-animation-duration: 333ms;
+    -webkit-animation-iteration-count: infinite;
+    /*无限循环*/
+    -webkit-animation-timing-function: step-start;
+    background: url(../images/p6/p6b_03.png) no-repeat;
+    background-size: cover;
+    width: 0.13485rem;
+    height: 0.09135rem;
+    top: 0.89175rem;
+    left: 0.38715rem;
+    transform: translateY(0rem) rotateZ(180deg) rotateX(0deg);
+    -webkit-transform: translateY(0rem) rotateZ(180deg) rotateX(0deg);
+  }
+  .huashu .page7 .num {
+    width: 1.4616rem;
+    height: 0.3567rem;
+    left: 0.66555rem;
+    color: white;
+    text-align: center;
+    font-size: 0.23055rem;
+    font-family: HuaShu2;
+    line-height: 0.3567rem;
+  }
+  .huashu .page7 .num1 {
+    top: 1.95315rem;
+  }
+  .huashu .page7 .num2 {
+    top: 2.90145rem;
+  }
+  .huashu .page7 .btn1 {
+    width: 1.70955rem;
+    height: 0.3654rem;
+    top: 3.741rem;
+    left: 0.609rem;
+  }
+  .huashu .page7 .axe {
+    background: url(../images/p7/p8_06.png) no-repeat;
+    background-size: cover;
+    width: 0.4872rem;
+    height: 0.57855rem;
+    top: 3.60615rem;
+    right: 0.43935rem;
+  }
+  .huashu .page7 .sitiao {
+    background: url(../images/p7/p8_11.png) no-repeat;
+    background-size: cover;
+    width: 2.2533rem;
+    height: 0.23055rem;
+    top: 2.3838rem;
+    left: 0.261rem;
+    transform-origin: center center;
+    -webkit-transform-origin: center center;
+    transform: rotateZ(-55deg) rotateX(0deg);
+    -webkit-transform: rotateZ(-55deg) rotateX(0deg);
+    display: none;
+  }
+  .huashu .page7 .dialog {
+    position: absolute;
+    background: rgba(77, 64, 92, 0.64);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    display: none;
+  }
+  .huashu .page7 .p8 {
+    background: url(../images/p7/p8b_03.png) no-repeat;
+    background-size: cover;
+    width: 2.3838rem;
+    height: 3.31035rem;
+    top: 0.8787rem;
+    left: 0.23925rem;
+    display: none;
+  }
+  .huashu .page7 .close {
+    background: url(../images/close_03.png) no-repeat;
+    background-size: cover;
+    width: 0.2784rem;
+    height: 0.2784rem;
+    top: -0.1392rem;
+    right: -0.1392rem;
+  }
+  .huashu .page7 .p8 .btn2 {
+    width: 1.0179rem;
+    height: 0.2871rem;
+    bottom: 0.261rem;
+    left: 0.67425rem;
+  }
+  .huashu .page7 .p9 .btn3 {
+    width: 1.60515rem;
+    height: 0.6264rem;
+    bottom: 0.2175rem;
+    left: 0.36105rem;
+  }
+  .huashu .page7 .dialog .tt {
+    color: #4d405c;
+    text-align: center;
+    font-size: 0.1305rem;
+    font-family: HuaShu;
+    position: absolute;
+    line-height: 0.1305rem;
+  }
+  .huashu .page7 .dialog .tt2 {
+    color: white;
+    text-align: center;
+    font-size: 0.2088rem;
+    font-family: HuaShu2;
+    width: 1.4442rem;
+    height: 0.3132rem;
+    line-height: 0.3132rem;
+    position: absolute;
+  }
+  .huashu .page7 .dialog #t1 {
+    width: 0.88305rem;
+    height: 0.1653rem;
+    line-height: 0.1653rem;
+    left: 0.71775rem;
+    top: 0.174rem;
+    font-size: 0.15225rem;
+  }
+  .huashu .page7 .dialog #t5 {
+    width: 0.76125rem;
+    left: 0.783rem;
+    top: 0.1827rem;
+  }
+  .huashu .page7 .dialog #t2 {
+    width: 0.58725rem;
+    height: 0.1653rem;
+    line-height: 0.1653rem;
+    top: 0.5742rem;
+    left: 0.696rem;
+  }
+  .huashu .page7 .dialog #t3 {
+    top: 1.1397rem;
+    left: 0.45675rem;
+  }
+  .huashu .page7 .dialog #t4 {
+    top: 1.8879rem;
+    left: 0.45675rem;
+  }
+  .huashu .page7 .p9 {
+    background: url(../images/p7/p9_03.png) no-repeat;
+    background-size: cover;
+    width: 2.3838rem;
+    height: 2.30985rem;
+    top: 1.4355rem;
+    left: 0.23925rem;
+    display: none;
+  }
+  .huashu .page7 .p9 .btn2 {
+    width: 1.479rem;
+    height: 0.50025rem;
+    bottom: 0.2958rem;
+    left: 0.4437rem;
+  }
+  .huashu .page11 .content {
+    background: url(../images/p11/p11_01.png) no-repeat;
+    background-size: cover;
+    width: 2.784rem;
+    height: 4.9416rem;
+    top: 0;
+    left: 0;
+  }
+  .huashu .page11 .content .futiao {
+    background: url(../images/p7/p8_03.png) no-repeat;
+    background-size: cover;
+    width: 0.27405rem;
+    height: 0.174rem;
+    top: 0.696rem;
+    left: 0.1914rem;
+    transform-origin: center center;
+    -webkit-transform-origin: center center;
+    transform: rotateZ(90deg) rotateX(0deg);
+    -webkit-transform: rotateZ(90deg) rotateX(0deg);
+    animation: futiao2 1s linear infinite alternate;
+    -webkit-animation: futiao2 1s linear infinite alternate;
+  }
+  .huashu .page11 .content .lunzi {
+    background: url(../images/p11/p11b_03.png) no-repeat;
+    background-size: cover;
+    width: 0.2001rem;
+    height: 0.2001rem;
+    top: 0.5394rem;
+    left: 1.3398rem;
+  }
+  .huashu .page11 .btn {
+    width: 2.40555rem;
+    height: 0.50025rem;
+    top: 3.1233rem;
+    left: 0.3132rem;
+  }
+  .huashu .page11 .share_icon {
+    background: url(../images/share_03.png) no-repeat;
+    background-size: cover;
+    width: 0.2523rem;
+    height: 0.30015rem;
+    top: 0.087rem;
+    right: 0.0957rem;
+  }
+  .animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
+  @-webkit-keyframes flash {
+    from,
+    50%,
+    to {
+      opacity: 1;
+    }
+    25%,
+    75% {
+      opacity: 0;
+    }
+  }
+  @keyframes flash {
+    from,
+    50%,
+    to {
+      opacity: 1;
+    }
+    25%,
+    75% {
+      opacity: 0;
+    }
+  }
+  .flash {
+    -webkit-animation-name: flash;
+    animation-name: flash;
+  }
+  @keyframes sanjiao2 {
+    0% {
+      transform: translateY(0rem) rotateZ(180deg) rotateX(0deg);
+      -webkit-transform: translateY(0rem) rotateZ(180deg) rotateX(0deg);
+    }
+    33% {
+      transform: translateY(0.13rem) rotateZ(180deg) rotateX(0deg);
+      -webkit-transform: translateY(0.13rem) rotateZ(180deg) rotateX(0deg);
+    }
+    67% {
+      transform: translateY(0.26rem) rotateZ(180deg) rotateX(0deg);
+      -webkit-transform: translateY(0.26rem) rotateZ(180deg) rotateX(0deg);
+    }
+  }
+  @-webkit-keyframes sanjiao2 {
+    0% {
+      transform: translateY(0rem) rotateZ(180deg) rotateX(0deg);
+      -webkit-transform: translateY(0rem) rotateZ(180deg) rotateX(0deg);
+    }
+    33% {
+      transform: translateY(0.13rem) rotateZ(180deg) rotateX(0deg);
+      -webkit-transform: translateY(0.13rem) rotateZ(180deg) rotateX(0deg);
+    }
+    67% {
+      transform: translateY(0.26rem) rotateZ(180deg) rotateX(0deg);
+      -webkit-transform: translateY(0.26rem) rotateZ(180deg) rotateX(0deg);
+    }
+  }
+  @-webkit-keyframes mushroom2 {
+    0% {
+      transform: translateY(-0.05rem) rotateZ(180deg) rotateX(0deg);
+      -webkit-transform: translateY(-0.05rem) rotateZ(180deg) rotateX(0deg);
+    }
+    100% {
+      transform: translateY(0) rotateZ(180deg) rotateX(0deg);
+      -webkit-transform: translateY(0) rotateZ(180deg) rotateX(0deg);
+    }
+  }
+  @keyframes mushroom2 {
+    0% {
+      transform: translateY(-0.05rem) rotateZ(180deg) rotateX(0deg);
+      -webkit-transform: translateY(-0.05rem) rotateZ(180deg) rotateX(0deg);
+    }
+    100% {
+      transform: translateY(0) rotateZ(180deg) rotateX(0deg);
+      -webkit-transform: translateY(0) rotateZ(180deg) rotateX(0deg);
+    }
+  }
+  @-webkit-keyframes futiao {
+    0% {
+      transform: translateX(-0.07rem);
+      -webkit-transform: translateX(-0.07rem);
+    }
+    100% {
+      transform: translateX(0);
+      -webkit-transform: translateX(0);
+    }
+  }
+  @keyframes futiao {
+    0% {
+      transform: translateX(-0.07rem);
+      -webkit-transform: translateX(-0.07rem);
+    }
+    100% {
+      transform: translateX(0);
+      -webkit-transform: translateX(0);
+    }
+  }
+  @-webkit-keyframes futiao2 {
+    0% {
+      transform: translateY(0.07rem) rotateZ(90deg) rotateX(0deg);
+      -webkit-transform: translateY(0.07rem) rotateZ(90deg) rotateX(0deg);
+    }
+    100% {
+      transform: translateY(0) rotateZ(90deg) rotateX(0deg);
+      -webkit-transform: translateY(0) rotateZ(90deg) rotateX(0deg);
+    }
+  }
+  @keyframes futiao2 {
+    0% {
+      transform: translateY(0.07rem) rotateZ(90deg) rotateX(0deg);
+      -webkit-transform: translateY(0.07rem) rotateZ(90deg) rotateX(0deg);
+    }
+    100% {
+      transform: translateY(0) rotateZ(90deg) rotateX(0deg);
+      -webkit-transform: translateY(0) rotateZ(90deg) rotateX(0deg);
+    }
+  }
+  .kan {
+    animation: kan 0.7s linear;
+    -webkit-animation: kan 0.7s linear;
+  }
+  .fadeIn {
+    -webkit-animation: fadeIn 0.5s linear;
+    animation: fadeIn 0.5s linear;
+    -moz-animation: fadeIn 0.5s linear;
+  }
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  @-webkit-keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  @keyframes kan {
+    0% {
+      transform: translateX(0) translateY(0);
+      -webkit-transform: translateX(0) translateY(0);
+    }
+    29% {
+      transform: translateX(0) translateY(-2.0706rem);
+      -webkit-transform: translateX(0) translateY(-2.0706rem);
+    }
+    100% {
+      transform: translateX(-1.0962rem) translateY(-0.35235rem);
+      -webkit-transform: translateX(-1.0962rem) translateY(-0.35235rem);
+    }
+  }
+  @-webkit-keyframes kan {
+    0% {
+      transform: translateX(0) translateY(0);
+      -webkit-transform: translateX(0) translateY(0);
+    }
+    29% {
+      transform: translateX(0) translateY(-2.0706rem);
+      -webkit-transform: translateX(0) translateY(-2.0706rem);
+    }
+    100% {
+      transform: translateX(-1.0962rem) translateY(-0.35235rem);
+      -webkit-transform: translateX(-1.0962rem) translateY(-0.35235rem);
+    }
+  }
+  .huashu .page10 .content {
+    background: url(../images/p10/p10_v_02.png) no-repeat;
+    background-size: cover;
+    width: 2.784rem;
+    height: 2.5665rem;
+    top: 2.3751rem;
+    left: 0;
+  }
+  .huashu .page10 .box-close {
+    background: url(../images/p10/p10_x_03.png) no-repeat;
+    background-size: cover;
+    width: 1.91835rem;
+    height: 1.3311rem;
+    top: 1.044rem;
+    left: 0.4176rem;
+  }
+  .huashu .page10 .box-close .btn {
+    width: 0.68295rem;
+    height: 0.26535rem;
+    top: 0.2523rem;
+    left: 0.67425rem;
+  }
+  .huashu .page10 .box-open {
+    background: url(../images/p10/p10_y_03.png) no-repeat;
+    background-size: cover;
+    width: 1.91835rem;
+    height: 2.19675rem;
+    top: 0.17835rem;
+    left: 0.4176rem;
+    display: none;
+  }
+  .huashu .page10 .box-open .txt {
+    width: 1.0875rem;
+    height: 0.3045rem;
+    text-align: center;
+    line-height: 0.3045rem;
+    top: 1.1745rem;
+    left: 0.4698rem;
+    font-family: HuaShu2;
+    color: #4d405c;
+    display: none;
+  }
+  .huashu .page10 .box-open .txt1 {
+    font-size: 0.19575rem;
+    margin-left: 0.0435rem;
+  }
+  .huashu .page10 .box-open .txt2 {
+    font-size: 0.2175rem;
+    letter-spacing: 0.0435rem;
+    margin-left: 0.087rem;
+  }
+  .huashu .page10 .content .circle {
+    top: 2.1489rem;
+    left: 2.2185rem;
+  }
+  .huashu .page10 .content .success {
+    color: #4d405c;
+    width: 2.349rem;
+    height: 1.67475rem;
+    background: #fbd000;
+    top: 0.0174rem;
+    left: 0.261rem;
+    border-radius: 0.0435rem;
+    display: none;
+  }
+  .huashu .page10 .content .success .title {
+    font-size: 0.2871rem;
+    font-family: HuaShu2;
+    margin-top: 0.3132rem;
+    text-align: center;
+  }
+  .huashu .page10 .content .success .tip {
+    font-size: 0.1044rem;
+    text-align: center;
+    font-family: HuaShu1;
+    margin-top: 0.3132rem;
+  }
+  .huashu .page10 .content .success .prize > div {
+    display: none;
+    width: 100%;
+  }
+  .huashu .page10 .content .success .prize {
+    text-align: center;
+    margin-top: 0.087rem;
+    width: 100%;
+    height: 0.23925rem;
+  }
+  .huashu .page10 .content .success .prize1 {
+    background: url(../images/p10/p11_t1_03.png) no-repeat center center;
+    background-size: 1.90965rem 0.2088rem;
+    width: 100%;
+    height: 0.2088rem;
+  }
+  .huashu .page10 .content .success .prize2 {
+    background: url(../images/p10/p11_t2_03.png) no-repeat center center;
+    background-size: 2.27505rem 0.16965rem;
+    height: 0.16965rem;
+  }
+  .huashu .page10 .content .success .prize3 {
+    background: url(../images/p10/p11_t3_03.png) no-repeat center center;
+    background-size: 2.26635rem 0.23925rem;
+    height: 0.23925rem;
+  }
+}

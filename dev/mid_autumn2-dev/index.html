@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0, minimal-ui"/>
+    <meta name="msapplication-tap-highlight" content="no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="keywords" content="中秋传福，一步之'摇'">
+    <meta name="description" content="中秋传福，一步之'摇'">
+
+    <title>故乡的思念</title>
+
+    <!--<link rel="stylesheet" href="css/normalize.css">-->
+    <link rel="stylesheet" href="css/common.css">
+    <!--<link rel="stylesheet" href="css/swiper.min.css">-->
+    <link rel="stylesheet" href="css/animate.css">
+
+    <link rel="stylesheet" href="css/page1.css">
+
+</head>
+
+<body class="mid_autumn">
+<div class="preload">
+    <div class="loading-progress">
+        <span class="item"></span>
+        <span class="item"></span>
+        <span class="item"></span>
+    </div>
+</div>
+<div class="audio" style="display: none;">
+    <audio id="audio1" loop="loop" preload="auto" autoplay="autoplay">
+        <source type="audio/mpeg" src="audio/bg.mp3">
+    </audio>
+</div>
+<div class="swiper-container pager_swiper" style="display: none;">
+    <div class="swiper-wrapper">
+        <section class="swiper-slide page1 page">
+            <div class="guang shine_guang_inset"></div>
+            <div class="guang2 shine_guang"></div>
+            <div class="t11">八月十五</div>
+            <div class="t12">月儿圆</div>
+            <div class="t13">来自</div>
+            <div class="t14">一份</div>
+            <div class="p1 animate2">
+                <div class="t2 ">故乡&nbsp;<span>的</span></div>
+                <div class="t22">思念</div>
+            </div>
+
+            <div class="btn ani"
+                 swiper-animate-effect="fadeIn"
+                 swiper-animate-duration="1s"
+                 swiper-animate-delay="1s">
+
+                <div class="circle ani infinite"
+                     swiper-animate-effect="pulse"
+                     swiper-animate-duration="1s"
+                     swiper-animate-delay="2s"></div>
+
+                <div class="finger ani infinite"
+                     swiper-animate-effect="pulse"
+                     swiper-animate-duration="1s"
+                     swiper-animate-delay="2s"></div>
+            </div>
+        </section>
+        <section class="swiper-slide page2 page">
+            <div class="h1">想要<br/>送一份团圆问候？</div>
+            <div class="guang shine_guang_inset"></div>
+            <div class="guang2 shine_guang"></div>
+            <div class="t1">
+                <div class="btn ani infinite"
+                     swiper-animate-effect="flash"
+                     swiper-animate-duration="1s"
+                     swiper-animate-delay="13s"></div>
+            </div>
+            <div class="t2">
+                <div class="t2x">
+                    <div class="text text1">月亮都是不变的</div>
+                    <div class="text text2">只是月下的人聚少离多</div>
+                    <div class="text text3">才会有阴晴圆缺</div>
+                    <div class="text text4">十五的圆月</div>
+                    <div class="text text5">总是该找个人分享</div>
+                </div>
+            </div>
+        </section>
+        <section class="swiper-slide page3 page">
+            <div class="h1">中秋了，团个团圆<br/>好多话.想要说...</div>
+            <div class="guang shine_guang_inset"></div>
+            <div class="guang2 shine_guang"></div>
+            <div class="t1">
+                <div class="btn1"></div>
+                <div class="btn2"></div>
+            </div>
+            <div class="t2">
+                <div class="text text1">对<span>TA</span>写下想说的话</div>
+                <div class="text text2">(<span>40</span>字内)</div>
+                <textarea id="text1" onkeyup="checkLen(this)"></textarea>
+            </div>
+        </section>
+        <section class="swiper-slide page4 page">
+            <div class="h1">月儿圆了，话才说的圆满。</div>
+            <div class="guang shine_guang_inset"></div>
+            <div class="guang2 shine_guang"></div>
+            <div class="t1">
+                <div class="btn1"></div>
+                <div class="btn2"></div>
+            </div>
+            <div class="t2">
+                <div id="text2"></div>
+            </div>
+            <div class="mask">
+                <div class="cloud ani infinite"
+                     swiper-animate-effect="shake"
+                     swiper-animate-duration="35s"
+                     swiper-animate-delay="0s"></div>
+                <div class="moon shine_guang_inset">
+                    <div class="ttt">点击右上角<br/>
+                        “发送给朋友”<br/>
+                        传达对TA的思念</div>
+                </div>
+                <div class="moonx shine_guang"></div>
+                <div class="moon1"></div>
+                <div class="moon2"></div>
+                <div class="moon3"></div>
+            </div>
+        </section>
+        <section class="swiper-slide page5 page">
+            <div class="moonx shine_guang"></div>
+            <div class="moon shine_guang_inset">
+                <div class="t1">圆圆月儿下的思念<br/>
+                    已送达~</div>
+                <div class="btn ani"
+                     swiper-animate-effect="bounceInRight"
+                     swiper-animate-duration="1s"
+                     swiper-animate-delay="0s"></div>
+            </div>
+
+        </section>
+    </div>
+
+    <!--<div id="arrow"></div>-->
+</div>
+<div id="land" class="land">
+    <p>请使用竖屏</p>
+</div>
+</body>
+
+<script type="text/javascript" src="js/libs/zepto-min.js"></script>
+<script type="text/javascript" src="js/libs/swiper.3.1.2.min.js"></script>
+<script type="text/javascript" src="js/libs/swiper.animate.min.js"></script>
+
+<script type="text/javascript" src="js/libs/PreLoad.js"></script>
+<script type="text/javascript" src="js/tool.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</html>
