@@ -1,0 +1,459 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  font-family: "microsoft yahei";
+}
+@font-face {
+  font-family: A1;
+  src: url('/s/soldier/less/fonts/a1.ttf?1');
+  font-weight: normal;
+  font-style: normal;
+}
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+.swiper-container .swiper-slide {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.page1 {
+  background: url(/s/soldier/images/p1.jpg) no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.page1 .t1 {
+  background: url(/s/soldier/images/p1_03.png) no-repeat;
+  background-size: cover;
+  width: 1.185rem;
+  height: 3.425rem;
+  top: 0.585rem;
+  left: 50%;
+  margin-left: -0.595rem;
+}
+.page1 .t2 {
+  background: url(/s/soldier/images/p1_07.png) no-repeat;
+  background-size: cover;
+  width: 2.88rem;
+  height: 0.45rem;
+  top: 4.365rem;
+  left: 50%;
+  margin-left: -1.44rem;
+}
+.page .border0 {
+  background-color: #626262;
+  width: 1.185rem;
+  height: 1.185rem;
+  position: absolute;
+  top: 0.165rem;
+  left: 50%;
+  margin-left: -0.595rem;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+}
+.page .border {
+  background: url(/s/soldier/images/border_03.png) no-repeat;
+  background-size: cover;
+  width: 1.855rem;
+  height: 1.465rem;
+  position: absolute;
+  top: 0.165rem;
+  left: 50%;
+  margin-left: -0.93rem;
+}
+.page2 {
+  background: url(/s/soldier/images/p2.jpg) no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.page2 .t1 {
+  background: url(/s/soldier/images/p2_03.png) no-repeat;
+  background-size: cover;
+  width: 1.185rem;
+  height: 1.18rem;
+  top: 0.165rem;
+  left: 50%;
+  margin-left: -0.595rem;
+  border-radius: 100%;
+}
+.page2 .t2 {
+  background: url(/s/soldier/images/p2_07.png) no-repeat;
+  background-size: cover;
+  width: 1.89rem;
+  height: 0.585rem;
+  top: 1.705rem;
+  left: 50%;
+  margin-left: -0.945rem;
+}
+.page2 .t3 {
+  background: url(/s/soldier/images/p2_11.png) no-repeat;
+  background-size: cover;
+  width: 2.375rem;
+  height: 2.24rem;
+  top: 2.38rem;
+  left: 50%;
+  margin-left: -1.19rem;
+}
+.page3 {
+  background: url(/s/soldier/images/p2.jpg) no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.page3 .t1 {
+  background: url(/s/soldier/images/p3_03.png) no-repeat;
+  background-size: cover;
+  width: 1.185rem;
+  height: 1.18rem;
+  top: 0.165rem;
+  left: 50%;
+  margin-left: -0.595rem;
+  border-radius: 100%;
+}
+.page3 .t2 {
+  background: url(/s/soldier/images/p3_07.png) no-repeat;
+  background-size: cover;
+  width: 1.89rem;
+  height: 0.715rem;
+  top: 1.705rem;
+  left: 50%;
+  margin-left: -0.945rem;
+}
+.page3 .t3 {
+  background: url(/s/soldier/images/p3_10.png) no-repeat;
+  background-size: cover;
+  width: 2.375rem;
+  height: 2.205rem;
+  top: 2.38rem;
+  left: 50%;
+  margin-left: -1.19rem;
+}
+.page3_2 {
+  background: url(/s/soldier/images/p2.jpg) no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.page3_2 .t1 {
+  background: url(/s/soldier/images/p3_2_03.png) no-repeat;
+  background-size: cover;
+  width: 1.185rem;
+  height: 1.18rem;
+  top: 0.165rem;
+  left: 50%;
+  margin-left: -0.595rem;
+  border-radius: 100%;
+}
+.page3_2 .t2 {
+  background: url(/s/soldier/images/p3_2_07.png) no-repeat;
+  background-size: cover;
+  width: 1.92rem;
+  height: 0.585rem;
+  top: 1.705rem;
+  left: 50%;
+  margin-left: -0.96rem;
+}
+.page3_2 .t3 {
+  background: url(/s/soldier/images/p3_2_11.png) no-repeat;
+  background-size: cover;
+  width: 2.385rem;
+  height: 2.13rem;
+  top: 2.38rem;
+  left: 50%;
+  margin-left: -1.19rem;
+}
+.page4 {
+  background: url(/s/soldier/images/p4.jpg) no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.page4 .t1 {
+  background: url(/s/soldier/images/p4_17.png) no-repeat;
+  background-size: cover;
+  width: 0.17rem;
+  height: 2.09rem;
+  top: 0.525rem;
+  left: 2.31rem;
+}
+.page4 .t2 {
+  background: url(/s/soldier/images/p4_15.png) no-repeat;
+  background-size: cover;
+  width: 0.185rem;
+  height: 2.19rem;
+  top: 0.525rem;
+  left: 2.08rem;
+}
+.page4 .t3 {
+  background: url(/s/soldier/images/p4_13.png) no-repeat;
+  background-size: cover;
+  width: 0.165rem;
+  height: 3.21rem;
+  top: 0.525rem;
+  left: 1.84rem;
+}
+.page4 .t4 {
+  background: url(/s/soldier/images/p4_11.png) no-repeat;
+  background-size: cover;
+  width: 0.17rem;
+  height: 3.355rem;
+  top: 0.525rem;
+  left: 1.635rem;
+}
+.page4 .t5 {
+  background: url(/s/soldier/images/p4_09.png) no-repeat;
+  background-size: cover;
+  width: 0.165rem;
+  height: 2.72rem;
+  top: 0.525rem;
+  left: 1.405rem;
+}
+.page4 .t6 {
+  background: url(/s/soldier/images/p4_07.png) no-repeat;
+  background-size: cover;
+  width: 0.185rem;
+  height: 1.47rem;
+  top: 0.525rem;
+  left: 1.15rem;
+}
+.page4 .t7 {
+  background: url(/s/soldier/images/p4_05.png) no-repeat;
+  background-size: cover;
+  width: 0.17rem;
+  height: 2.49rem;
+  top: 0.525rem;
+  left: 0.925rem;
+}
+.page4 .t8 {
+  background: url(/s/soldier/images/p4_03.png) no-repeat;
+  background-size: cover;
+  width: 0.155rem;
+  height: 2.39rem;
+  top: 0.525rem;
+  left: 0.69rem;
+}
+.page4 .btn {
+  background: url(/s/soldier/images/p4_btn_27.png) no-repeat;
+  background-size: cover;
+  width: 0.865rem;
+  height: 0.305rem;
+  top: 4.325rem;
+  left: 50%;
+  margin-left: -0.42rem;
+}
+.page4 .rule {
+  background: url(/s/soldier/images/p4_3_03.png) no-repeat;
+  background-size: cover;
+  width: 2.77rem;
+  height: 4.005rem;
+  top: 0.235rem;
+  left: 50%;
+  margin-left: -1.385rem;
+  display: none;
+}
+.page4 .rule .close {
+  width: 0.15rem;
+  height: 0.15rem;
+  position: absolute;
+  top: 0.1rem;
+  right: 0.25rem;
+}
+.page4 .shine_border {
+  width: 2.23rem;
+  height: 3.91rem;
+  top: 0.245rem;
+  left: 50%;
+  margin-left: -1.115rem;
+  position: absolute;
+}
+.shine_guang {
+  animation: shine_guang 1s linear infinite alternate;
+  -webkit-animation: shine_guang 1s linear infinite alternate;
+}
+@keyframes shine_guang {
+  0% {
+    box-shadow: 0 0 0.15rem #e9cf37;
+    -webkit-box-shadow: 0 0 0.15rem #e9cf37;
+  }
+  100% {
+    box-shadow: 0 0 0.05rem rgba(233, 207, 55, 0.5);
+    -webkit-box-shadow: 0 0 0.05rem rgba(233, 207, 55, 0.5);
+  }
+}
+@-webkit-keyframes shine_guang {
+  0% {
+    box-shadow: 0 0 0.15rem #e9cf37;
+    -webkit-box-shadow: 0 0 0.15rem #e9cf37;
+  }
+  100% {
+    box-shadow: 0 0 0.05rem rgba(233, 207, 55, 0.5);
+    -webkit-box-shadow: 0 0 0.05rem rgba(233, 207, 55, 0.5);
+  }
+}
+.page5 {
+  background: url(/s/soldier/images/p5.jpg) no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.page5 .btn1 {
+  background: url(/s/soldier/images/p5_07.png) no-repeat;
+  background-size: cover;
+  width: 0.865rem;
+  height: 0.305rem;
+  top: 3.725rem;
+  left: 50%;
+  margin-left: -0.435rem;
+}
+.page5 .btn2 {
+  background: url(/s/soldier/images/p5_10.png) no-repeat;
+  background-size: cover;
+  width: 0.865rem;
+  height: 0.305rem;
+  top: 4.23rem;
+  left: 50%;
+  margin-left: -0.435rem;
+}
+.page5 .t1 {
+  width: 1.92rem;
+  height: 2.375rem;
+  top: 1.15rem;
+  left: 0.62rem;
+  overflow: hidden;
+}
+.page5 .t1 img {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  max-width: 100%;
+  max-height: 100%;
+  margin: auto;
+  display: block;
+}
+.page6 {
+  background: url(/s/soldier/images/p6.jpg) no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.page6 .btn1 {
+  background: url(/s/soldier/images/p6_03.png) no-repeat;
+  background-size: cover;
+  width: 0.865rem;
+  height: 0.305rem;
+  top: 4.205rem;
+  left: 50%;
+  margin-left: -0.435rem;
+}
+.page6 .btn2 {
+  width: 0.81rem;
+  height: 0.205rem;
+  line-height: 0.25rem;
+  top: 2.525rem;
+  left: 1.87rem;
+  color: white;
+  font-size: 0.12rem;
+  text-align: center;
+}
+.page6 input {
+  position: absolute;
+  width: 1.88rem;
+  height: 0.215rem;
+  line-height: 0.215rem;
+  padding-left: 0.02rem;
+  font-size: 0.11rem;
+  color: white;
+  outline: none;
+  left: 0.82rem;
+  background: transparent;
+  border: 0;
+}
+.page6 input:active,
+.page6 input:focus {
+  outline: none;
+}
+.page6 #name {
+  top: 1.085rem;
+}
+.page6 #sex {
+  top: 1.46rem;
+}
+.page6 #birthday {
+  top: 1.82rem;
+}
+.page6 #mobile {
+  top: 2.185rem;
+}
+.page6 #code {
+  top: 2.55rem;
+  width: 0.97rem;
+}
+.page6_2 {
+  background: url(/s/soldier/images/p6_2.jpg) no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.page6_2 .t1 {
+  text-align: center;
+  width: 2.535rem;
+  height: 1.48rem;
+  top: 0.655rem;
+  left: 50%;
+  margin-left: -1.27rem;
+  font-size: 0.21rem;
+  color: white;
+  padding-top: 0.15rem;
+  line-height: 0.4rem;
+  font-family: A1;
+}
+.page6_2 .t1 .num {
+  font-size: 0.275rem;
+  color: #db0606;
+}
+.page6_2 .btn {
+  width: 0.75rem;
+  height: 0.255rem;
+  top: 2.71rem;
+  left: 1.3rem;
+}
+.page6_2 .btn2 {
+  width: 2.62rem;
+  height: 0.675rem;
+  top: 3.57rem;
+  left: 50%;
+  margin-left: -1.335rem;
+}
+.page7 {
+  background: url(/s/soldier/images/p5.jpg) no-repeat;
+  background-size: cover;
+  position: relative;
+  display: none;
+}
+.page7 .t1 {
+  width: 1.92rem;
+  height: 2.375rem;
+  top: 1.15rem;
+  left: 0.62rem;
+  overflow: hidden;
+}
+.page7 .t1 img {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  max-width: 100%;
+  max-height: 100%;
+  margin: auto;
+  display: block;
+}
+.page7 .btn {
+  background: url(/s/soldier/images/p7_btn_03.png);
+  background-size: cover;
+  width: 1.17rem;
+  height: 0.35rem;
+  top: 3.97rem;
+  left: 50%;
+  margin-left: -0.585rem;
+}
