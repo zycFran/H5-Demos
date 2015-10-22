@@ -1,0 +1,498 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  font-family: "microsoft yahei";
+}
+@font-face {
+  font-family: A1;
+  src: url('/s/marathon/less/fonts/a1.ttf?1');
+  font-weight: normal;
+  font-style: normal;
+}
+.page1 {
+  background: url(/s/marathon/images/p1.jpg) no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 3.2rem;
+  height: 5.69rem;
+}
+.page1 .b1 {
+  width: 0.96rem;
+  height: 0.405rem;
+  left: 0.235rem;
+  top: 4.46rem;
+}
+.page1 .b2 {
+  width: 0.62rem;
+  height: 0.62rem;
+  left: 1.28rem;
+  top: 4.32rem;
+}
+.page1 .b3 {
+  width: 0.96rem;
+  height: 0.405rem;
+  left: 2.02rem;
+  top: 4.46rem;
+}
+.page3 {
+  background: url(/s/marathon/images/p3.jpg) no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 3.2rem;
+  height: 10.5rem;
+}
+.page3 .b1 {
+  width: 0.96rem;
+  height: 0.415rem;
+  left: 0.36rem;
+  top: 6.23rem;
+}
+.page3 .b3 {
+  width: 0.96rem;
+  height: 0.415rem;
+  left: 1.9rem;
+  top: 6.23rem;
+}
+.page3 .b2,
+.page3 .b4,
+.page3 .b5 {
+  width: 1.415rem;
+  height: 0.405rem;
+  left: 50%;
+  margin-left: -0.71rem;
+  top: 6.93rem;
+}
+.page3 .b2 {
+  background: url(/s/marathon/images/p3_btn_03.png) no-repeat;
+  background-size: cover;
+}
+.page3 .b4 {
+  background: url(/s/marathon/images/p3_btn2_03.png) no-repeat;
+  background-size: cover;
+}
+.page3 .b5 {
+  background: url(/s/marathon/images/p3_5_btn_03.png) no-repeat;
+  background-size: cover;
+}
+.page3 .tip1 {
+  top: 3.135rem;
+}
+.page3 .tip2 {
+  top: 3.135rem;
+}
+.page3 .t1 {
+  width: 2.54rem;
+  text-align: center;
+  font-size: 0.15rem;
+  color: white;
+  line-height: 0.265rem;
+  height: 1.03rem;
+  left: 50%;
+  margin-left: -1.27rem;
+  top: 5.28rem;
+  font-family: A1;
+}
+.page3 .list {
+  width: 2.95rem;
+  height: 1.7rem;
+  left: 50%;
+  margin-left: -1.475rem;
+  top: 7.575rem;
+  padding-top: 0.78rem;
+}
+.page3 .list-item {
+  display: -webkit-flex;
+  display: flex;
+  padding-left: 0.2rem;
+  margin-bottom: 0.115rem;
+}
+.page3 .list-item .head {
+  width: 0.385rem;
+  height: 0.385rem;
+  background: white;
+  border-radius: 100%;
+  margin-right: 0.1rem;
+  position: relative;
+}
+.page3 .list-item .name {
+  -webkit-flex: 1;
+  flex: 1;
+  color: white;
+  font-size: 0.13rem;
+  font-family: A1;
+}
+.page3 .list-item .name p {
+  font-size: 0.18rem;
+}
+.page3 .top1 .head {
+  border: 0.025rem solid #fbcf01;
+}
+.page3 .top1 .head .tt {
+  background: url(/s/marathon/images/p3x_03.png) no-repeat;
+  background-size: cover;
+  width: 0.245rem;
+  height: 0.195rem;
+  position: absolute;
+  left: 0.07rem;
+  top: -0.21rem;
+}
+.page3 .ppp {
+  position: relative;
+}
+.page3 .ppp .ppp-item {
+  width: 0.43rem;
+  display: none;
+}
+.page3 .ppp .ppp-item .head {
+  width: 0.43rem;
+  height: 0.43rem;
+  background: white;
+  border-radius: 100%;
+  margin-bottom: 0.02rem;
+}
+.page3 .ppp .ppp-item .value {
+  font-size: 0.11rem;
+  color: white;
+  background: #7db334;
+  text-align: center;
+  line-height: 0.15rem;
+  padding: 0 0.05rem;
+  border-radius: 0.04rem;
+}
+.page3 .ppp .ppp-item1 {
+  top: 1.635rem;
+  left: 1.6rem;
+}
+.page3 .ppp .ppp-item2 {
+  top: 1.97rem;
+  left: 0.475rem;
+}
+.page3 .ppp .ppp-item3 {
+  top: 2.26rem;
+  left: 1.935rem;
+}
+.page3 .ppp .ppp-item4 {
+  top: 2.7rem;
+  left: 1.15rem;
+}
+.page3 .ppp .ppp-item5 {
+  top: 3.215rem;
+  left: 0.58rem;
+}
+.page3 .ppp .ppp-item6 {
+  top: 3.385rem;
+  left: 1.89rem;
+}
+.page3 .ppp .ppp-item7 {
+  top: 3.87rem;
+  left: 0.375rem;
+}
+.page3 .ppp .ppp-item8 {
+  top: 4.18rem;
+  left: 1.315rem;
+}
+.page2 {
+  background: url(/s/marathon/images/p2.jpg) no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  width: 3.2rem;
+  height: 5.69rem;
+}
+.page2 .t1 {
+  background: url(/s/marathon/images/p2_tt_04.png) no-repeat;
+  background-size: cover;
+  width: 1.155rem;
+  height: 2.6rem;
+  top: 0.64rem;
+  left: 0;
+}
+.page2 .t1_1 {
+  background: url(/s/marathon/images/p2_tt_04.png) no-repeat;
+  background-size: cover;
+  width: 1.155rem;
+  height: 2.6rem;
+  top: 0.64rem;
+  left: 0rem;
+  -webkit-transform: translate3d(50%, -100%, 0) scale3d(0.5, 0.5, 1);
+  transform: translate3d(50%, -100%, 0) scale3d(0.5, 0.5, 1);
+}
+.page2 .t2 {
+  background: url(/s/marathon/images/p2_tt_03.png) no-repeat;
+  background-size: cover;
+  width: 1.225rem;
+  height: 3.24rem;
+  top: 0.64rem;
+  right: 0;
+}
+.page2 .t2_1 {
+  background: url(/s/marathon/images/p2_tt_03.png) no-repeat;
+  background-size: cover;
+  width: 1.225rem;
+  height: 3.24rem;
+  top: 0.64rem;
+  right: 0;
+  -webkit-transform: translate3d(-70%, -100%, 0) scale3d(0.5, 0.5, 1);
+  transform: translate3d(-70%, -100%, 0) scale3d(0.5, 0.5, 1);
+}
+.page2 .point {
+  font-size: 0.245rem;
+  color: #e4483c;
+  top: 0.42rem;
+  left: 0.19rem;
+  width: 0.425rem;
+  height: 0.2rem;
+  text-align: center;
+}
+.page2 .time {
+  font-size: 0.245rem;
+  color: #e4483c;
+  top: 0.5rem;
+  right: 0.11rem;
+  width: 0.55rem;
+  height: 0.225rem;
+  text-align: center;
+}
+.page2 .p1 {
+  background: url(/s/marathon/images/p2_1_03.png) no-repeat;
+  background-size: cover;
+  width: 0.745rem;
+  height: 2.175rem;
+  top: 2.205rem;
+  left: 1.11rem;
+}
+.page2 .p1_2 {
+  background: url(/s/marathon/images/p2_2_03.png) no-repeat;
+  background-size: cover;
+  width: 0.745rem;
+  height: 2.175rem;
+  top: 2.205rem;
+  left: 1.27rem;
+  display: none;
+}
+.page2 .foot {
+  width: 0.68rem;
+  height: 0.68rem;
+  border-radius: 0.07rem;
+  top: 4.515rem;
+}
+.page2 .foot.active {
+  background-color: #e14337;
+}
+.page2 .f1 {
+  background: url(/s/marathon/images/p2_f_03.png) no-repeat center center;
+  background-size: 0.22rem 0.575rem;
+  background-color: #78ae2f;
+  left: 0.585rem;
+}
+.page2 .f2 {
+  background: url(/s/marathon/images/p2_f_05.png) no-repeat center center;
+  background-size: 0.22rem 0.575rem;
+  background-color: #78ae2f;
+  left: 2.04rem;
+}
+.page2 .finger {
+  background: url(/s/marathon/images/p2_r_03.png) no-repeat center center;
+  background-size: cover;
+  width: 1.185rem;
+  height: 1.275rem;
+  top: 4.65rem;
+  left: 2.22rem;
+}
+.page2 .finger1 {
+  background: url(/s/marathon/images/p2_r_03.png) no-repeat center center;
+  background-size: cover;
+  width: 1.185rem;
+  height: 1.275rem;
+  top: 4.65rem;
+  left: 0.73rem;
+  opacity: 0;
+}
+.tip1 {
+  background: url(/s/marathon/images/p1_1_03.png) no-repeat;
+  width: 2.75rem;
+  height: 5rem;
+  background-size: cover;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -1.375rem;
+  margin-top: -2.5rem;
+  display: none;
+}
+.tip1 .close {
+  width: 0.225rem;
+  height: 0.225rem;
+  top: 0.06rem;
+  right: 0.06rem;
+}
+.tip2 {
+  background: url(/s/marathon/images/p1_2_03.png) no-repeat;
+  width: 2.75rem;
+  height: 5rem;
+  background-size: cover;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -1.375rem;
+  margin-top: -2.5rem;
+  display: none;
+}
+.tip2 .close {
+  width: 0.225rem;
+  height: 0.225rem;
+  top: 0.06rem;
+  right: 0.06rem;
+}
+.tip3 {
+  background: url(/s/marathon/images/p3_4_03.png) no-repeat;
+  width: 2.75rem;
+  height: 2.485rem;
+  background-size: cover;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -1.375rem;
+  margin-top: -1.25rem;
+  display: none;
+}
+.tip3 .close {
+  width: 0.225rem;
+  height: 0.225rem;
+  top: 0.06rem;
+  right: 0.06rem;
+}
+.move_action {
+  -webkit-animation: move0 4s linear infinite;
+  -moz-animation: move0 4s linear infinite;
+  -ms-animation: move0 4s linear infinite;
+}
+.move_action1 {
+  -webkit-animation: move1 4s linear infinite;
+  -moz-animation: move1 4s linear infinite;
+  -ms-animation: move1 4s linear infinite;
+}
+.move_action2 {
+  -webkit-animation: move2 4s linear infinite;
+  -moz-animation: move2 4s linear infinite;
+  -ms-animation: move2 4s linear infinite;
+}
+.move_action3 {
+  -webkit-animation: move3 4s linear infinite;
+  -moz-animation: move3 4s linear infinite;
+  -ms-animation: move3 4s linear infinite;
+}
+.finger_action {
+  -webkit-animation: finger 1s linear infinite alternate;
+  -moz-animation: finger 1s linear infinite alternate;
+  -ms-animation: finger 1s linear infinite alternate;
+}
+.finger_action1 {
+  -webkit-animation: finger1 1s linear infinite alternate;
+  -moz-animation: finger1 1s linear infinite alternate;
+  -ms-animation: finger1 1s linear infinite alternate;
+}
+@-webkit-keyframes move0 {
+  0% {
+    -webkit-transform: translate3d(60%, -100%, 0) scale3d(0.5, 0.5, 1);
+    transform: translate3d(60%, -100%, 0) scale3d(0.5, 0.5, 1);
+  }
+  100% {
+    -webkit-transform: translate3d(0, 0, 0) scale3d(1, 1, 1);
+    transform: translate3d(0, 0, 0) scale3d(1, 1, 1);
+  }
+}
+@-webkit-keyframes move1 {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0) scale3d(1, 1, 1);
+    transform: translate3d(0, 0, 0) scale3d(1, 1, 1);
+  }
+  100% {
+    -webkit-transform: translate3d(-100%, 165%, 0) scale3d(1.45, 1.45, 1);
+    transform: translate3d(-100%, 165%, 0) scale3d(1.45, 1.45, 1);
+  }
+}
+@-webkit-keyframes move2 {
+  0% {
+    -webkit-transform: translate3d(-70%, -100%, 0) scale3d(0.5, 0.5, 1);
+    transform: translate3d(-70%, -100%, 0) scale3d(0.5, 0.5, 1);
+  }
+  100% {
+    -webkit-transform: translate3d(0, 0, 0) scale3d(1, 1, 1);
+    transform: translate3d(0, 0, 0) scale3d(1, 1, 1);
+  }
+}
+@-webkit-keyframes move3 {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0) scale3d(1, 1, 1);
+    transform: translate3d(0, 0, 0) scale3d(1, 1, 1);
+  }
+  100% {
+    -webkit-transform: translate3d(95%, 125%, 0) scale3d(1.45, 1.45, 1);
+    transform: translate3d(95%, 125%, 0) scale3d(1.45, 1.45, 1);
+  }
+}
+@keyframes move0 {
+  0% {
+    -webkit-transform: translate3d(60%, -100%, 0) scale3d(0.5, 0.5, 1);
+    transform: translate3d(60%, -100%, 0) scale3d(0.5, 0.5, 1);
+  }
+  100% {
+    -webkit-transform: translate3d(0, 0, 0) scale3d(1, 1, 1);
+    transform: translate3d(0, 0, 0) scale3d(1, 1, 1);
+  }
+}
+@keyframes move1 {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0) scale3d(1, 1, 1);
+    transform: translate3d(0, 0, 0) scale3d(1, 1, 1);
+  }
+  100% {
+    -webkit-transform: translate3d(-100%, 165%, 0) scale3d(1.45, 1.45, 1);
+    transform: translate3d(-100%, 165%, 0) scale3d(1.45, 1.45, 1);
+  }
+}
+@keyframes move2 {
+  0% {
+    -webkit-transform: translate3d(-70%, -100%, 0) scale3d(0.5, 0.5, 1);
+    transform: translate3d(-70%, -100%, 0) scale3d(0.5, 0.5, 1);
+  }
+  100% {
+    -webkit-transform: translate3d(0, 0, 0) scale3d(1, 1, 1);
+    transform: translate3d(0, 0, 0) scale3d(1, 1, 1);
+  }
+}
+@keyframes move3 {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0) scale3d(1, 1, 1);
+    transform: translate3d(0, 0, 0) scale3d(1, 1, 1);
+  }
+  100% {
+    -webkit-transform: translate3d(95%, 125%, 0) scale3d(1.45, 1.45, 1);
+    transform: translate3d(95%, 125%, 0) scale3d(1.45, 1.45, 1);
+  }
+}
+@keyframes finger {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes finger1 {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
