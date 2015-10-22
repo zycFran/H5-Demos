@@ -14,3 +14,4 @@ H5 Hfive Demos
 * Demo 5: [印象城致敬老兵](http://www.hydeze.com/s/soldier/index.html)
 * Demo 6: [西湖穿越](http://www.hydeze.com/s/cross/index.html)
 * Demo 7: [杭州马拉松](http://www.hydeze.com/s/marathon/index.html)
+* Demo 8: [老凤祥2015会员盛典](http://www.hydeze.com/s/lfx2/index.html)
