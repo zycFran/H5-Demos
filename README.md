@@ -1,6 +1,10 @@
 # H5-Demos
 H5 Hfive Demos
 
+## 压缩
+* npm install -g fis-3
+* npm install -g font-spider
+
 ## Demo 列表
 * Demo 0: [华数抽奖](http://www.hydeze.com/s/huashu/index.html)
 * Demo 1: [宁美国度](http://www.hydeze.com/s/ningmei/index.html)
