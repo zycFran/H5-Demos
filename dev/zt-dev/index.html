@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0, minimal-ui"/>
+    <meta name="msapplication-tap-highlight" content="no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="keywords" content="手速大比拼，正泰有豪礼">
+    <meta name="description" content="手速大比拼，正泰有豪礼">
+
+    <title>点赞狂魔快来挑战</title>
+
+    <link rel="stylesheet" href="css/common.css">
+    <!--<link rel="stylesheet" href="css/swiper.min.css">-->
+    <!--<link rel="stylesheet" href="css/animate.css">-->
+
+    <link rel="stylesheet" href="css/page.css">
+
+</head>
+
+<body>
+<div class="preload" style="height: 100%;background: url(images/loading2.gif) no-repeat center center;">
+</div>
+<div class="audio" style="display: none;">
+    <audio id="audio1" loop="loop" preload="auto" autoplay="autoplay">
+        <source type="audio/mpeg" src="audio/bg.mp3">
+    </audio>
+</div>
+
+<div class="swiper-container pager_swiper" style="display: none;">
+    <div class="swiper-wrapper">
+        <section class="swiper-slide page1 page">
+            <div class="btn1 pab"></div>
+            <div class="btn2 pab"></div>
+            <div class="btn3 pab"></div>
+
+            <div class="rule pab">
+                <div class="btn pab"></div>
+                <div class="text pab"></div>
+            </div>
+            <div class="tip pab">
+                <div class="text pab"></div>
+                <div class="btn pab"></div>
+            </div>
+
+            <div class="waiting"></div>
+        </section>
+        <section class="swiper-slide page2 page">
+            <div class="time pab">29</div>
+            <div class="point pab">0</div>
+
+            <div class="btn light pab"></div>
+            <div class="pic light pab"></div>
+            <div class="go three pab"></div>
+
+            <div class="result pab">
+                <div class="text pab">
+                    <span class="t">恭喜你！</span><br/>
+                   你的手速已经达到了<span class="p pp"></span>次<br/>
+                   令人惊叹！快去<span class="p">查看你的排名</span>吧<br/>
+                </div>
+                <div class="btn pab"></div>
+            </div>
+        </section>
+        <section class="swiper-slide page3 page">
+            <div class="list pab">
+                <div class="list-item list0 flex-box">
+                    <span class="rank">01</span>
+                    <span class="name flex-item"></span>
+                    <span class="value"></span>
+                </div>
+                <div class="list-item list1 flex-box">
+                    <span class="rank">02</span>
+                    <span class="name flex-item"></span>
+                    <span class="value"></span>
+                </div>
+                <div class="list-item list2 flex-box">
+                    <span class="rank">03</span>
+                    <span class="name flex-item"></span>
+                    <span class="value"></span>
+                </div>
+                <div class="list-item  list3 flex-box">
+                    <span class="rank">04</span>
+                    <span class="name flex-item"></span>
+                    <span class="value"></span>
+                </div>
+                <div class="list-item list4 flex-box">
+                    <span class="rank">05</span>
+                    <span class="name flex-item"></span>
+                    <span class="value"></span>
+                </div>
+            </div>
+            <div class="current pab">您当前的排名<span id="my"></span>位</div>
+            <!--<div class="current pab">0123459恭喜你！678你的手速已经达到了令人惊叹！快去查看你的排名吧您当前的排名位</div>-->
+
+            <div class="btn1 pab"></div>
+            <div class="btn2 pab"></div>
+
+            <a class="link pab"
+               target="_blank"
+               href="http://mp.weixin.qq.com/s?__biz=MjM5NjczMDIyOA==&mid=400368314&idx=1&sn=09285908b3bada1a989aa9374a6ee210#rd"></a>
+
+            <div class="share"></div>
+        </section>
+    </div>
+</div>
+
+<div id="land" class="land">
+    <p>请使用竖屏</p>
+</div>
+</body>
+
+<script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+<script type="text/javascript" src="js/libs/zepto-min.js"></script>
+<!--<script type="text/javascript" src="js/libs/swiper.3.1.2.min.js"></script>-->
+<!--<script type="text/javascript" src="js/libs/swiper.animate.min.js"></script>-->
+
+<script type="text/javascript" src="js/libs/PreLoad.js"></script>
+<script type="text/javascript" src="js/tool.js"></script>
+<script type="text/javascript" src="js/share.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</html>

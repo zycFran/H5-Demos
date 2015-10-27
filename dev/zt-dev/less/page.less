@@ -1,0 +1,319 @@
+@scale: 200;
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: "microsoft yahei";
+}
+
+@font-face {
+  font-family: A1;
+  src: url('fonts/a1.ttf?1');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+
+  .swiper-wrapper{
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+}
+
+.page1 {
+  background: url(../images/p1.jpg) no-repeat;
+  background-size: 100%;
+  position: relative;
+
+  .btn1 {
+    width: 282rem/@scale;
+    height: 90rem/@scale;
+    left: 50%;
+    top: 745rem/@scale;
+    margin-left: -141rem/@scale;
+  }
+
+  .btn2 {
+    width: 205rem/@scale;
+    height: 55rem/@scale;
+    left: 65rem/@scale;
+    top: 883rem/@scale;
+  }
+
+  .btn3 {
+    width: 205rem/@scale;
+    height: 55rem/@scale;
+    left: 360rem/@scale;
+    top: 883rem/@scale;
+  }
+
+  .rule {
+    width: 100%;
+    height: 100%;
+    background: rgba(27, 26, 26, 0.95);
+    display: none;
+
+    .btn {
+      background: url(../images/p1_2_07.png) no-repeat;
+      width: 268rem/@scale;
+      height: 87rem/@scale;
+      background-size: 100%;
+
+      left: 50%;
+      top: 778rem/@scale;
+      margin-left: -134rem/@scale;
+    }
+    .text {
+      top: 234rem/@scale;
+      background: url(../images/p1_2_03.png) no-repeat;
+      background-size: 100%;
+      width: 455rem/@scale;
+      height: 293rem/@scale;
+      left: 50%;
+      margin-left: -228rem/@scale;
+    }
+  }
+
+  .tip {
+    width: 100%;
+    height: 100%;
+    background: rgba(27, 26, 26, 0.95);
+    display: none;
+
+    .text {
+      top: 191rem/@scale;
+      background: url(../images/p1_3_03.png) no-repeat;
+      background-size: 100%;
+      width: 587rem/@scale;
+      height: 750rem/@scale;
+      left: 50%;
+      margin-left: -294rem/@scale;
+    }
+
+    .btn {
+      top: 816rem/@scale;
+      width: 256rem/@scale;
+      height: 90rem/@scale;
+      left: 50%;
+      margin-left: -128rem/@scale;
+    }
+
+  }
+
+  .waiting{
+    width: 100%;
+    height: 100%;
+    background: url(../images/wait.gif) no-repeat;
+    background-size: 100%;
+    display: none;
+  }
+}
+
+.page2{
+  background: url(../images/bg.jpg) no-repeat;
+  background-size: 100%;
+  position: relative;
+  display: none;
+
+  .time{
+    font-family: A1;
+    font-size: 48rem/@scale;
+    width: 100rem/@scale;
+    height: 50rem/@scale;
+    line-height: 50rem/@scale;
+    text-align: center;
+    top: 56rem/@scale;
+    left: 21rem/@scale;
+    color: #005bac;
+  }
+  .point{
+    font-family: A1;
+    font-size: 48rem/@scale;
+    width: 150rem/@scale;
+    height: 50rem/@scale;
+    line-height: 50rem/@scale;
+    text-align: center;
+    top: 56rem/@scale;
+    right: 22rem/@scale;
+    color: #005bac;
+  }
+  .pic{
+    width: 434rem/@scale;
+    height: 583rem/@scale;
+    margin-left: -217rem/@scale;
+    top: 133rem/@scale;
+    left: 50%;
+  }
+  .pic.light{
+    background: url(../images/light_03.jpg) no-repeat;
+    background-size: 100%;
+  }
+  .pic.dark{
+    background: url(../images/dark_03.jpg) no-repeat;
+    background-size: 100%;
+  }
+
+  .btn{
+    width: 200rem/@scale;
+    height: 199rem/@scale;
+    margin-left: -100rem/@scale;
+    top: 742rem/@scale;
+    left: 50%;
+  }
+  .btn.light{
+      background: url(../images/light_07.jpg) no-repeat;
+      background-size: 100%;
+    }
+  .btn.dark{
+    background: url(../images/dark_07.jpg) no-repeat;
+    background-size: 100%;
+  }
+
+  .go{
+    width: 116rem/@scale;
+    height: 158rem/@scale;
+    margin-left: -58rem/@scale;
+    top: 206rem/@scale;
+    left: 50%;
+  }
+  .go.three{
+    background: url(../images/3_03.png) no-repeat;
+    background-size: 100%;
+  }
+  .go.two{
+    background: url(../images/2_03.png) no-repeat;
+    background-size: 100%;
+  }
+  .go.one{
+    background: url(../images/1_03.png) no-repeat;
+    background-size: 100%;
+  }
+  .go.start{
+    width: 205rem/@scale;
+    height: 88rem/@scale;
+    margin-left: -103rem/@scale;
+    top: 249rem/@scale;
+    left: 50%;
+    background: url(../images/go_03.png) no-repeat;
+    background-size: 100%;
+  }
+
+  .result{
+    width: 100%;
+    height: 100%;
+    background: rgba(27, 26, 26, 0.95);
+    display: none;
+
+    .text{
+      color: #158cd4;
+      font-family: A1;
+      font-size: 34rem/@scale;
+      text-align: center;
+      width: 494rem/@scale;
+      height: 150rem/@scale;
+      top: 285rem/@scale;
+      margin-left: -247rem/@scale;
+      left: 50%;
+
+      .t{
+        font-size: 48rem/@scale;
+      }
+      .p{
+        color: #dc2465;
+      }
+    }
+    .btn{
+      background: url(../images/btn_03.png) no-repeat;
+      width: 209rem/@scale;
+      height: 72rem/@scale;
+      background-size: 100%;
+      top: 513rem/@scale;
+      left: 50%;
+      margin-left: -105rem/@scale;
+    }
+  }
+}
+.page3 {
+  background: url(../images/over.jpg) no-repeat;
+  background-size: 100%;
+  position: relative;
+  display: none;
+
+  .list{
+    width: 474rem/@scale;
+    height: 202rem/@scale;
+    top: 199rem/@scale;
+    left: 84rem/@scale;
+    .list-item{
+      height: 40rem/@scale;
+      line-height: 40rem/@scale;
+      font-family: A1;
+      font-size: 26rem/@scale;
+      color: #0a93f3;
+
+      .rank{
+        width: 44rem/@scale;
+        text-align: left;
+      }
+      .name{
+        text-align: center;
+      }
+      .value{
+        width: 84rem/@scale;
+        text-align: left;
+      }
+    }
+  }
+  .current{
+    font-family: A1;
+    font-size: 40rem/@scale;
+    color: white;
+
+    top: 400rem/@scale;
+    left: 84rem/@scale;
+    width: 474rem/@scale;
+    height: 67rem/@scale;
+    line-height: 67rem/@scale;
+    text-align: center;
+  }
+
+  .btn1{
+    width: 225rem/@scale;
+    height: 87rem/@scale;
+    top: 532rem/@scale;
+    left: 54rem/@scale;
+  }
+  .btn2{
+    width: 225rem/@scale;
+    height: 87rem/@scale;
+    top: 532rem/@scale;
+    left: 350rem/@scale;
+  }
+  .link{
+    width: 254rem/@scale;
+    height: 88rem/@scale;
+    top: 838rem/@scale;
+    left: 190rem/@scale;
+    display: block;
+  }
+  .share{
+    background: url(../images/sh.png) no-repeat;
+    background-size: 100% 100%;
+    display: none;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    position: absolute;
+  }
+}
