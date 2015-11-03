@@ -15,3 +15,4 @@ H5 Hfive Demos
 * Demo 6: [西湖穿越](http://www.hydeze.com/s/cross/index.html)
 * Demo 7: [杭州马拉松](http://www.hydeze.com/s/marathon/index.html)
 * Demo 8: [老凤祥2015会员盛典](http://www.hydeze.com/s/lfx2/index.html)
+* Demo 9: [正泰游戏](http://www.hydeze.com/s/zt/index.html)
