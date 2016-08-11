@@ -6,6 +6,8 @@ H5 Hfive Demos
 * npm install -g font-spider
 
 ## Demo 列表
+* Demo 12: [里约奥运](http://jump.word1k.com/sport/index.html)
+* Demo 11: [3D全景](http://jump.word1k.com/fullview/index.html)
 * Demo 10: [杭州大厦美妆节](http://jump.word1k.com/hzds/index2.html)
 * Demo 9: [正泰游戏](http://www.hydeze.com/s/zt/index.html)
 * Demo 8: [老凤祥2015会员盛典](http://www.hydeze.com/s/lfx2/index.html)
